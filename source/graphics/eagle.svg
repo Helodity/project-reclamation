@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="793.70081"
+   height="1122.5197"
+   viewBox="0 0 210 296.99999"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="eagle.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.733172"
+     inkscape:cx="138.43955"
+     inkscape:cy="236.64297"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1">
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask7">
+      <path
+         style="fill:#d1f1f2;fill-opacity:1;stroke-width:0.49683;stroke-linejoin:round;paint-order:markers stroke fill"
+         id="path7"
+         sodipodi:type="arc"
+         sodipodi:cx="-20.954998"
+         sodipodi:cy="40.927731"
+         sodipodi:rx="11.459765"
+         sodipodi:ry="11.459765"
+         sodipodi:start="0"
+         sodipodi:end="3.1415927"
+         sodipodi:arc-type="slice"
+         d="m -9.4952326,40.927731 a 11.459765,11.459765 0 0 1 -5.7298824,9.924448 11.459765,11.459765 0 0 1 -11.459766,-10e-7 11.459765,11.459765 0 0 1 -5.729882,-9.924447 h 11.459765 z"
+         transform="rotate(-90)" />
+    </mask>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background"
+     style="display:none">
+    <rect
+       style="fill:#086000;fill-opacity:1;stroke-width:0.531208;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect1"
+       width="104.775"
+       height="83.872917"
+       x="-1.0474062e-07"
+       y="5.4575708e-14"
+       inkscape:export-filename="../graphics/ship/eagle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="display:inline;fill:#748a8c;fill-opacity:1;stroke:none;stroke-width:0.189182;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect9"
+       width="28.869986"
+       height="3.067436"
+       x="21.103992"
+       y="66.843979"
+       transform="rotate(-45)" />
+    <rect
+       style="display:inline;fill:#748a8c;fill-opacity:1;stroke:none;stroke-width:0.189182;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect9-2"
+       width="28.869986"
+       height="3.067436"
+       x="80.373672"
+       y="7.5742979"
+       transform="matrix(0.70710678,0.70710678,0.70710678,-0.70710678,0,0)" />
+    <rect
+       style="fill:#d1f1f2;fill-opacity:1;stroke-width:0.838826;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect2"
+       width="65.484375"
+       height="45.839062"
+       x="16.371092"
+       y="18.990467" />
+    <path
+       style="fill:#d1f1f2;fill-opacity:1;stroke-width:0.99366;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="path4"
+       sodipodi:type="arc"
+       sodipodi:cx="-41.909996"
+       sodipodi:cy="81.855461"
+       sodipodi:rx="22.919531"
+       sodipodi:ry="22.919531"
+       sodipodi:start="0"
+       sodipodi:end="3.1415927"
+       sodipodi:arc-type="slice"
+       d="m -18.990465,81.855461 a 22.919531,22.919531 0 0 1 -11.459766,19.848899 22.919531,22.919531 0 0 1 -22.919531,0 22.919531,22.919531 0 0 1 -11.459765,-19.848899 h 22.919531 z"
+       transform="rotate(-90)" />
+    <path
+       id="path5"
+       style="fill:#db900d;fill-opacity:1;stroke-width:0.489238;stroke-linejoin:round;paint-order:markers stroke fill"
+       inkscape:transform-center-y="-2.4578307"
+       d="M 49.113277,18.990466 H 16.371092 V 0 Z"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="path5-1"
+       style="fill:#db900d;fill-opacity:1;stroke-width:0.489238;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="M 16.371092,83.819994 V 64.829526 h 32.742183 z"
+       sodipodi:nodetypes="cccc"
+       inkscape:transform-center-x="-4.2376391" />
+    <rect
+       style="fill:#595959;fill-opacity:1;stroke-width:0.79376;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect5"
+       width="32.742184"
+       height="19.645311"
+       x="-1.0474062e-07"
+       y="48.458431" />
+    <rect
+       style="fill:#4a4a4a;fill-opacity:1;stroke-width:0.79376;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect5-3"
+       width="32.742184"
+       height="19.645311"
+       x="-1.0474062e-07"
+       y="15.716244" />
+    <ellipse
+       style="fill:#271c78;fill-opacity:1;stroke-width:0.259556;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="path6"
+       cx="54.959602"
+       cy="20.954998"
+       rx="6.5408564"
+       ry="10.583328"
+       mask="url(#mask7)"
+       transform="scale(1.9999999)" />
+    <ellipse
+       style="display:inline;fill:#748a8c;fill-opacity:1;stroke:none;stroke-width:0.259556;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path8"
+       cx="82.86293"
+       cy="13.56708"
+       rx="5.7739973"
+       ry="2.8869987" />
+    <path
+       id="rect7"
+       style="fill:#352e82;stroke-width:0.519112;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="m 42.534053,34.512061 h 21.823553 l 5.291666,2.116666 v 10.562536 l -5.291666,2.116666 H 42.534053 l -2.645832,-1.058334 v -12.6792 z"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       id="rect8"
+       style="fill:#5c52c2;stroke-width:0.519112;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="m 63.82844,39.274561 5.820832,-0.794676 v 6.86022 l -5.820834,-1.058334 z"
+       sodipodi:nodetypes="ccccc" />
+    <ellipse
+       style="display:inline;fill:#748a8c;fill-opacity:1;stroke:none;stroke-width:0.259556;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path8-9"
+       cx="82.86293"
+       cy="-70.252907"
+       rx="5.7739973"
+       ry="2.8869987"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.55506px;font-family:'IBM Plex Sans Hebrew';-inkscape-font-specification:'IBM Plex Sans Hebrew Bold';writing-mode:lr-tb;direction:ltr;fill:#5c52c2;fill-opacity:1;stroke:none;stroke-width:0.372376;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill"
+       x="40.673172"
+       y="88.708488"
+       id="text8"
+       transform="scale(1.3940517,0.71733352)"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-size:4.55506px;stroke-width:0.372376"
+         x="40.673172"
+         y="88.708488">Eagle</tspan></text>
+  </g>
+</svg>

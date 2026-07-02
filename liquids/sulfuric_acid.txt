@@ -1,0 +1,14 @@
+name = Sulfuric Acid
+description = Damaging body of sulfuric acid.
+
+animation_speed = 1
+body_color = 96 96 32 128
+distortion_amount = 14 4
+radar_color = 255 255 64
+shine_color = 255 255 200 128
+shine_max_threshold = 0.95
+shine_min_threshold = 0.6
+
+maker = Helodity
+version = 1.0.0
+engine_version = 1.0.0

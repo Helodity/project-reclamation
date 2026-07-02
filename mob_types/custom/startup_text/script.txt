@@ -1,0 +1,3 @@
+ready {
+    show_cutscene_message $text
+}

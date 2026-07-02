@@ -1,0 +1,9 @@
+name=Pikifen: Galaxies
+description=An attempt at a full story
+maker=Helodity, Neo
+version=1.0.0
+engine_version=1.2.0
+tags=
+dependencies=
+conflicts=
+notes=

@@ -1,0 +1,13 @@
+name = Dissolving
+description = Mobs in sulfuric acid suffer chemical burns.
+
+affects = enemies; pikmin; leaders;
+color = 255 255 64
+particle_generator = dissolving
+particle_offset = 0 0 64
+health_change_ratio = -0.1
+remove_on_hazard_leave = true
+
+maker = Helodity
+version = 1.0.0
+engine_version = 1.2.0

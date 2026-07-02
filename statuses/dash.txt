@@ -1,0 +1,11 @@
+name = Dash
+description = A burst of speed by a leader to cross a gap
+
+affects = leaders
+auto_remove_time = 0.3
+color = 128 16 112
+speed_multiplier = 4
+
+maker = Helodity
+version = 1.0.0
+engine_version = 1.0.0

@@ -1,0 +1,72 @@
+It was known by many names. The Savior of Life. The Golden Core. The Devil’s Lure. PNF-404.
+Now, it only goes by one: Wasteland.
+
+Eager to exploit the planet’s wealth, travelers arrived by the thousands. Shipments back left even faster. Within months, planet-wide infrastructure had been funded and began construction.
+
+Eventually, the scavengers supply ran dry. Without their source of income, they turned towards the rest of the planet. The flora was stripped from the dirt. The creatures who survived the initial construction were slaughtered and sent back for profit. Everything must go, and just as fast as the travelers arrived, they left, leaving a husk of what was.
+
+
+PLOT
+
+Intro: Crash land, discover a few disabled Mechamin. Notices coordinates inscribed within them detailing a factory.
+
+Mission 1: Explore a supposedly abandoned Mechamin factory. Turns out, it’s still running????? and the mechamin built are hostile??? Acquire blueprints, which allow rebuilding of Mechamin, and find notes that detail an underground extraction facility with “bountiful treasure” in another area. (Is this a stealth mission? It might be)
+
+Mission 2: It might be beneficial to disable this factory. Dismantle the generator that’s somehow still running? Strange.
+
+Mission 3: Uh oh, someone is sorta pissed that you’ve been touching his shit!!! He’s sending a mass of Mechamin at you. His army HEAVILY overpowers yours, get the FUCK out and fast.
+
+Mission 4: Phew, seems like you lost him. Now you can visit the coordinates the facility had It’s an abandoned facility alright, but it doesn’t match the rest of the architecture? Turns out, its made by a different group of people, and a preservation site. Discover ACTUAL Pikmin and onions here. Most importantly, the life here is able to grow again. Rebuild the pikmin population
+
+Mission 5: Test out some cool regrowth shit you found (idk man, plot!) on an abandoned area. It’s slow, but it works!!!!
+
+
+Mission 6: Return to the preservation site, and oh god, it’s been FUCKED UP. Whoever chased you down found the place and raided it to shit. EVERYTHING that was there is dead now. Turns out, mr AI is still there, and he’s not happy about that factory you blew up.
+
+
+NEW SHIT
+
+Hazards/Statuses
+- Sulfuric Acid (Liquid)
+	- Dissolving
+		- Removed on hazard leave
+		- 0.1 health ratio
+- Acid Splash (Hitbox)
+	- Causes panic and dissolving status until whistled
+
+Enemies
+- Stalkerwire – Downed powerwires, remanifested into… something
+	- Resides in clumps of powerwires
+	- visible with two glowing yellow eyes, appears when stalking prey
+	- jumps out at nearby pikmin/leaders
+	- think like the crawfish from p2 attack but its a mario piranha
+	- Add a powerline decoration
+- Acidic Wollyhop
+	- Recolored wollyhop, has pustules growing on its back (maybe).
+	- Splashes sulfuric acid in a wide AOE upon landing.
+- Man-at-legs
+	- cmon, this would be fucking FIRE.
+- Metallic Onion
+	- An onion, melded with wires and metal.
+	- Spawns a group of hostile Mechamin when attacked.
+	- Occasionally emits pulses that convert allied Mechamin
+	- Mechamin become friendly after defeat
+- POIN//TR
+	- Enemy AI leader (yes this is a mirror match)
+	- Commands and frequently takes control of Mechamin
+	- Corrupted Onion on steroids.
+
+Pikmin
+- Mechamin – Robotic Pikmin made from scrap.
+	- Dies immediately to liquid hazards (water, sulfuric acid, bubbles)
+	- Propagates via scrap delivery to ships (kinda like glow Pikmin)
+	- Decreased damage (0.5x)
+	- Can not be spicy sprayed.
+	- Reverts to scrap pile on death. Does not occur when eaten.
+
+- Mechamin Mk II. – Prototype Mechamin. Blueprints lost to time.
+	- Liquid-resistant, takes damage in water over time (like sulfuric acid)
+	- Cannot propagate
+	- Can not be spicy sprayed.
+	- Decrease damage (0.5x)
+	- Reverts to scrap pile on death, which can be converted into a base Mechamin.

@@ -1,0 +1,10 @@
+name = Sulfuric Acid
+description = A pool of diluted sulfuric acid. Causes chemical burns over time.
+
+color = 255 255 64
+effects = dissolving
+liquid = sulfuric_acid
+
+maker = Helodity
+version = 1.2.0
+engine_version = 1.0.0

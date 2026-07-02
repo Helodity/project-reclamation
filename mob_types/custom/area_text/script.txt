@@ -1,0 +1,20 @@
+first_state = idling
+
+script{
+    idling {
+        on_enter {
+            set_near_reach view
+        }
+        on_object_in_reach {
+            get_mob_info type trigger mob_category
+            if $type = leader
+                set_state displayed
+            end_if
+        }
+    }
+    displayed {
+        on_enter {
+            show_cutscene_message $text
+        }
+    }
+}
