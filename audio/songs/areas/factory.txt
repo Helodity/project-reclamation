@@ -1,0 +1,14 @@
+name = Factory
+description = Slave your life away to this one.
+
+tags = Area;
+maker = Helodity
+version = 1.0.0
+engine_version = 1.2.0
+notes = This song is an original creation for Pikifen.
+loop_start = 16
+
+main_track = areas/factory
+mix_tracks {
+    enemy = areas/factory_enemy
+}
