@@ -1,0 +1,12 @@
+name = Boss
+description = Groove out to this electro song with growing intensity.
+
+tags =
+maker = Helodity
+version = 1.0.0
+engine_version = 1.2.0
+notes = This song is an original creation for Pikifen.
+loop_start = 80.57
+loop_end = 161.14
+
+main_track = others/boss
