@@ -1,0 +1,19 @@
+name = Rusted
+description = Mobs in sulfuric acid suffer chemical burns.
+
+state_change_type = custom
+state_change_name = rusted
+affects = pikmin
+color = 255 100 0
+particle_generator = dissolving
+particle_offset = 0 0 64
+health_change_ratio = -1.0
+
+tint = 255 100 0 100
+freezes_animation = true
+speed_multiplier = 0.3
+anim_speed_multiplier = 0
+
+maker = Helodity
+version = 1.0.0
+engine_version = 1.2.0

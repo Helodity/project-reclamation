@@ -1,0 +1,28 @@
+death_state = custom_death
+
+script {
+	shorted {
+		on_enter {
+			start_particles mechamin_shorted 0 0 48
+		}
+		on_animation_end {
+			delete
+		}
+	}
+	rusted {
+		on_leave {
+			get_mob_info hp self health_ratio
+			if $hp = 0
+				start_particles mechamin_crumble 0 0 48
+			end_if
+		}
+	}
+	custom_death {
+		on_enter {
+			set_timer 0.1
+		}
+		on_timer {
+			delete
+		}
+	}
+}
