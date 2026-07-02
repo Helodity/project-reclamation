@@ -26,6 +26,19 @@ Mission 6: Return to the preservation site, and oh god, it’s been FUCKED UP. W
 
 NEW SHIT
 
+Areas
+- Abandoned Factory
+	- A large, abandoned factory where the journey starts and ends maybe?
+	- Portrayed to be self sufficient, with scrappers gathering scrap inside and out, conveyor belts running into molten dropoffs to smelt, etc
+	- Build enemy and hostile ecosystem in this theme?
+	- Magnets to attract and kill Mechamin??
+	
+- Ruined Greenhouse
+	- An overgrown greenhouse beyond disrepair
+	- Lots of unique organic flora and fauna
+	- Pikmin pots scattered around that you must plant in the ground and allow to grow? Using Mechamin to obtain Pikmin, who can use their resistances to clear a path to different onions (red -> yellow, yellow + red -> blue?)
+	- New kind of sheargrub spawns on the outskirts on this map, up to a cap, and patrols the farmland area. Whenever it sees a growing or buried Pikmin, it beelines towards it to eat it.
+
 Hazards/Statuses
 - Sulfuric Acid (Liquid)
 	- Dissolving
@@ -35,6 +48,7 @@ Hazards/Statuses
 	- Causes panic and dissolving status until whistled
 
 Enemies
+-- Common, Factory
 - Stalkerwire – Downed powerwires, remanifested into… something
 	- Resides in clumps of powerwires
 	- visible with two glowing yellow eyes, appears when stalking prey
@@ -44,8 +58,45 @@ Enemies
 - Acidic Wollyhop
 	- Recolored wollyhop, has pustules growing on its back (maybe).
 	- Splashes sulfuric acid in a wide AOE upon landing.
+-Scrapper
+	-Small, dwarf bulborb sized enemy
+	-Can't be crushed
+	-Wanders around stupidly; short ranged fov
+	-Eats Mechamin and scrap it comes across
+	-After it's full, it makes its way to a linked area (usually the start of a conveyor belt) and spits its contents out (new object maybe? compacted scrap block? or just individual scrap piece?)
+	-Can be linked to an empty object and it'll make a pile (a literal pile mob or just a mess, either works)
+	-If it's unlinked, it won't seek scrap and will just eat Mekamin; when it's full, it'll spit up whatever it has
+	-When eating Pikmin, it'll kill them like normal, and won't accumulate scrap.
+	-No soul 💀
+-Furnace
+	-A larger scrapper, based on the Spotty Bulbear
+	-Swallows scrap, Mechamin quickly
+	-Maybe instantly kills leaders?
+	-Very near-sighted unless locked on
+	-Locked on mode lasts for a few seconds, unless drone is present
+	-If it has no drone, will use accumulated material to create one
+	-Drops self when dead; to turn it into scrap, the player must take it somewhere to scrap it, or lure Scrappers near it so they can bite at it
+	-No soul
+-Drone
+	-A drone that hovers around freely, independently from its linked Furnace
+	-When it spots scrap, Mechamin, or a player, locks onto them and begins sounding an alarm. It will then pass the mob information to its linked Furnace, who will then pathfind to the player, even across the map
+	-When dead, crashes into the ground and turns into scrap pieces
+	-No soul
+
+-- Common, Greenhouse
+-Rooting Sheargrub
+	-A passive Sheargrub, slightly longer than a Male Sheargrub
+	-Patrols the farm area and a bit outside of it
+	-Eats pellet posies it comes across that aren't fully grown
+	-Eats buried Pikmin and Pikmin sprouts
+	-Eats new foilage that regrows when destroyed
+	
+
+-- Bosses
 - Man-at-legs
 	- cmon, this would be fucking FIRE.
+	
+-- Story stuff
 - Metallic Onion
 	- An onion, melded with wires and metal.
 	- Spawns a group of hostile Mechamin when attacked.
@@ -55,6 +106,7 @@ Enemies
 	- Enemy AI leader (yes this is a mirror match)
 	- Commands and frequently takes control of Mechamin
 	- Corrupted Onion on steroids.
+	- Neo suggestion: Maybe call it Foreman or something since it manages the factory/facility?
 
 Pikmin
 - Mechamin – Robotic Pikmin made from scrap.
