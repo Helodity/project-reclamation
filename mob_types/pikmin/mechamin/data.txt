@@ -1,7 +1,7 @@
 name = Mechamin
-description = Blue Pikmin can swim and withstand any water-based attack.
+description = Robotic pikmin replicas. Much weaker than the original, but can be fabricated from scrap.
 
-can_carry_tools = true
+can_carry_tools = false
 can_walk_on_others = true
 carry_strength = 1
 health_regen = 10
@@ -11,10 +11,10 @@ icon_bud = pikmin/white_bud_icon
 icon_flower = pikmin/white_flower_icon
 icon_leaf = pikmin/leaf_icon
 icon_onion = onions/blue_icon
-main_color = 20 82 219
+main_color = 50 50 40
 max_health = 100
 max_throw_height = 260
-move_speed = 110
+move_speed = 105
 pushable = true
 pushes = false
 radius = 5
@@ -199,6 +199,6 @@ status_vulnerabilities {
 	dissolving = 100 rusted true
 }
 
-maker = Espyo
+maker = Neo, Helodity
 version = 1.0.0
-engine_version = 1.0.0
+engine_version = 1.2.0
