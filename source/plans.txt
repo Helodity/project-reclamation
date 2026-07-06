@@ -1,3 +1,15 @@
+QUESTIONS TO ANSWER
+
+- Do the machine enemies deliberately target mechamin?
+	- Yes
+		- Fits existing game logic: pikmin bad get eaten
+	- No
+		- Foreman's factory produces them, right? why would he want to destroy his own army???
+
+
+
+INTRO
+
 It was known by many names. The Savior of Life. The Golden Core. The Devil’s Lure. PNF-404.
 Now, it only goes by one: Wasteland.
 
@@ -82,11 +94,15 @@ Enemies
 	-When it spots scrap, Mechamin, or a player, locks onto them and begins sounding an alarm. It will then pass the mob information to its linked Furnace, who will then pathfind to the player, even across the map
 	-When dead, crashes into the ground and turns into scrap pieces
 	-No soul
+	-Helodity's thoughts: This guy is so cool i want to make him a marketable plushie
+		- Maybe if it detects scrap, it tries to lure a scrapper over, but if it finds a player
 
 -- Common, Greenhouse
 -Rooting Sheargrub
 	-A passive Sheargrub, slightly longer than a Male Sheargrub
 	-Patrols the farm area and a bit outside of it
+		- Helodity's thoughts: What if it burrows underground mostly protected, but could be uprooted (pun intended) by a purple pikmin slam
+			...though maybe we dont need a reason to make purple pikmin stronger
 	-Eats pellet posies it comes across that aren't fully grown
 	-Eats buried Pikmin and Pikmin sprouts
 	-Eats new foilage that regrows when destroyed
@@ -100,8 +116,8 @@ Enemies
 - Metallic Onion
 	- An onion, melded with wires and metal.
 	- Spawns a group of hostile Mechamin when attacked.
-	- Occasionally emits pulses that convert allied Mechamin
-	- Mechamin become friendly after defeat
+	- Occasionally emits pulses that cause allied Mechamin to betray
+	- Affected Mechamin become friendly after defeat
 - POIN//TR
 	- Enemy AI leader (yes this is a mirror match)
 	- Commands and frequently takes control of Mechamin
@@ -116,6 +132,7 @@ Pikmin
 	- Can not be spicy sprayed.
 	- Reverts to scrap pile on death. Does not occur when eaten.
 
+LATER THOUGHTS: do we want these guys???
 - Mechamin Mk II. – Prototype Mechamin. Blueprints lost to time.
 	- Liquid-resistant, takes damage in water over time (like sulfuric acid)
 	- Cannot propagate
