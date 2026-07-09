@@ -1,4 +1,4 @@
-name=Pikifen: Galaxies
+name=Pikifen: Reclamation
 description=An attempt at a full story
 maker=Helodity, Neo
 version=1.0.0
