@@ -3,7 +3,7 @@ engine_version=1.2.0
 emission{
 	number=1
 	number_deviation=0
-	interval=1.0000
+	interval=0.2500
 	interval_deviation=0.0000
 	shape=1
 	rect_outer_dist=0.0000 0.0000
@@ -13,7 +13,7 @@ base{
 	bitmap=effects/shockwave
 	bitmap_angle=0.0000
 	bitmap_angle_type=0
-	duration=0.5000
+	duration=1.0000
 	friction=0.0000
 	blend_type=1
 	color{
@@ -21,7 +21,7 @@ base{
 		1.0000=255 0 0 0
 	}
 	size{
-		0.0000=0.0000
+		0.0000=8.0000
 		1.0000=32.0000
 	}
 	linear_speed{
