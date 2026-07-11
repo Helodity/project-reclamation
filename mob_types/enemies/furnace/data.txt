@@ -1,7 +1,7 @@
 name = Furnace
-description = Although often sleeping, they can be dangerous foes when awakened, given their large size and large mouths.
+description = Large mobile scrapper. Consumes whatever is thrown into it.
 
-acceleration = 80
+acceleration = 130
 can_hunt = player; enemy
 can_hurt = player; enemy; fragile
 can_walk_on_others = true
@@ -11,7 +11,7 @@ itch_damage = 70
 itch_time = 5
 max_carriers = 20
 max_health = 2000
-move_speed = 45
+move_speed = 80
 pikmin_seeds = 12
 points = 50
 pushable = true
