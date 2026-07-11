@@ -1,0 +1,79 @@
+name = Furnace
+description = Although often sleeping, they can be dangerous foes when awakened, given their large size and large mouths.
+
+acceleration = 80
+can_hunt = player; enemy
+can_hurt = player; enemy; fragile
+can_walk_on_others = true
+custom_category_name = Enemy, large and aggressive
+height = 128
+itch_damage = 70
+itch_time = 5
+max_carriers = 20
+max_health = 2000
+move_speed = 30
+pikmin_seeds = 12
+points = 50
+pushable = true
+pushes = true
+pushes_softly = true
+radius = 60
+rotation_speed = 114
+target_type = enemy
+terrain_radius = 90
+territory_radius = 300
+weight = 10
+rectangular_dimensions = 194 128
+
+reaches {
+    wake_up = 10 360
+    search = 250 180 30 360
+    chase = 250 2
+    close = 250 360
+    attack = 40 30
+}
+
+sounds {
+    stomp {
+        sound = misc/stomp_big
+        speed_deviation = 20
+    }
+}
+
+spawns {
+    furnace_smoke {
+        object = furnace_smoke
+        relative = true
+        coordinates = 0 0 0
+        angle = 0
+    }
+    furnace_antenna {
+        object = furnace_antenna
+        relative = true
+        coordinates = 0 0 0
+        angle = 0
+    }
+}
+
+children {
+    smoke {
+        spawn = furnace_smoke
+        parent_holds = true
+        hold_body_part = smoke
+        handle_damage = false
+        handle_events = false
+        handle_statuses = false
+    }
+    antenna {
+        spawn = furnace_antenna
+        parent_holds = true
+        hold_body_part = antenna
+        handle_damage = false
+        handle_events = false
+        handle_statuses = false
+    }
+}
+
+maker = Helodity
+version = 1.0.0
+engine_version = 1.2.0

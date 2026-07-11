@@ -1,0 +1,10 @@
+name = Furnace Smoke Generator
+description = A decorative object whose only purpose is to emit smoke particles.
+
+appears_in_area_editor = false
+casts_shadow = false
+custom_category_name = Decoration
+
+maker = Helodity
+version = 1.0.0
+engine_version = 1.2.0

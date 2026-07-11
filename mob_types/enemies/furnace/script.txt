@@ -1,0 +1,27 @@
+first_state = idling
+
+script {
+    idling {
+        on_enter {
+            set_animation walking
+        }
+
+        on_frame_signal {
+            get_event_info fs frame_signal
+            if $fs = 1
+                start_particles furnace_stomp 80 100
+                start_particles furnace_stomp -70 -100
+                stop
+            end_if
+            if $fs = 0
+                start_particles furnace_stomp -70 100
+                start_particles furnace_stomp 80 -100
+                stop
+            end_if
+            if $fs = 2
+                 move_to_relative 100 0
+            end_if
+        }
+
+    }
+}

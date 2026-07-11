@@ -1,0 +1,9 @@
+first_state = idling
+
+script {
+    idling {
+        on_enter {
+            start_particles furnace_antenna 0 0 300
+        }
+    }
+}
