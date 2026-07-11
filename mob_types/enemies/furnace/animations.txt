@@ -26,7 +26,7 @@ animations{
 				duration=0.2000
 			}
 			walking_l2{
-				duration=0.8000
+				duration=0.5000
 				signal=0
 				sound=stomp
 			}
@@ -41,7 +41,7 @@ animations{
 				duration=0.2000
 			}
 			walking_r2{
-				duration=0.8000
+				duration=0.5000
 				signal=1
 				sound=stomp
 			}

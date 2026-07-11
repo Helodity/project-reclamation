@@ -1,10 +1,10 @@
-first_state = idling
+first_state = walking
 
 script {
     idling {
         on_enter {
             set_animation idling
-            get_random_float t 3 5
+            get_random_int t 3 5
             set_timer $t
         }
 
