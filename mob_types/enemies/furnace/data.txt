@@ -18,7 +18,7 @@ pushable = true
 pushes = true
 pushes_softly = true
 radius = 60
-rotation_speed = 114
+rotation_speed = 10
 target_type = enemy
 terrain_radius = 90
 territory_radius = 300
@@ -31,6 +31,8 @@ reaches {
     chase = 250 2
     close = 250 360
     attack = 40 30
+	scrap_search = 250 90 20 360
+	scrap_consume = 50 25
 }
 
 sounds {

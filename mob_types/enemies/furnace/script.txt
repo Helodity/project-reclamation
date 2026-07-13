@@ -1,37 +1,36 @@
-first_state = walking
+first_state = idling
+
+init {
+    set_var scrap 0
+}
 
 script {
     idling {
         on_enter {
+            stop
             set_animation idling
-            get_random_int t 3 5
+            get_random_int t 2 5
             set_timer $t
         }
-
-        on_frame_signal {
-            get_event_info fs frame_signal
-            if $fs = 1
-                start_particles furnace_stomp 80 100
-                start_particles furnace_stomp -70 -100
-                stop
-            end_if
-            if $fs = 0
-                start_particles furnace_stomp -70 100
-                start_particles furnace_stomp 80 -100
-                stop
-            end_if
-            if $fs = 2
-                 move_to_relative 100 0
-            end_if
-        }
         on_timer {
-            set_state walking
+            set_state exploring
         }
     }
-    walking {
+    exploring {
         on_enter {
+                //We are going to repeatedly stop and start motion for visual effect, so we need to store the target position so he doesnt just spin in place
+                get_random_float newX -1000 1000
+                get_random_float newY -1000 1000
+                get_mob_info myX self x
+                get_mob_info myY self y
+                calculate targetX $newX + $myX
+                calculate targetY $newY + $myY
+
+                follow_path_to_absolute $targetX $targetY
+
             set_animation walking
             get_random_int steps 3 8
+            set_near_reach scrap_search
         }
         on_frame_signal {
             get_event_info fs frame_signal
@@ -46,7 +45,7 @@ script {
                 stop
             end_if
             if $fs = 2
-                 move_to_relative 100 0
+                 follow_path_to_absolute $targetX $targetY
             end_if
         }
         on_animation_end {
@@ -56,5 +55,49 @@ script {
                 set_state idling
             end_if
         }
+        on_object_in_reach {
+            get_mob_info mt trigger mob_type
+            if $mt = scrap
+                get_mob_info target_id trigger id
+                //set_state chasing_scrap
+            end_if
+        }
     }
+
+    chasing_scrap {
+        on_enter {
+            set_animation walking no_restart
+            set_near_reach scrap_consume
+            focus_on_id $target_id
+            move_to_target focused_mob
+        }
+        on_frame_signal {
+            get_event_info fs frame_signal
+            if $fs = 1
+                start_particles furnace_stomp 80 100
+                start_particles furnace_stomp -70 -100
+                stop
+            end_if
+            if $fs = 0
+                start_particles furnace_stomp -70 100
+                start_particles furnace_stomp 80 -100
+                stop
+            end_if
+            if $fs = 2
+                 move_to_target focused_mob
+            end_if
+        }
+        on_object_in_reach {
+            get_mob_info mt trigger mob_type
+            if $mt = scrap
+                run_next_action_as trigger
+                delete
+                calculate scrap $scrap + 1
+                set_state idling
+            end_if
+        }
+    }
+
+
+
 }
