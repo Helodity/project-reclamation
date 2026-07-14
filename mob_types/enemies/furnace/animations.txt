@@ -284,7 +284,7 @@ sprites{
 				type=1
 				value=20.0000
 				knockback_type=2
-				knockback=1.0000
+				knockback=2.0000
 			}
 			body1{
 				coords=-30.0000 0.0000 0.0000
@@ -380,7 +380,7 @@ sprites{
 				type=1
 				value=20.0000
 				knockback_type=2
-				knockback=1.0000
+				knockback=2.0000
 			}
 			body1{
 				coords=-30.0000 0.0000 0.0000
@@ -474,7 +474,7 @@ sprites{
 				type=1
 				value=20.0000
 				knockback_type=2
-				knockback=1.0000
+				knockback=2.0000
 			}
 			body1{
 				coords=-30.0000 0.0000 0.0000
@@ -570,7 +570,7 @@ sprites{
 				type=1
 				value=20.0000
 				knockback_type=2
-				knockback=1.0000
+				knockback=2.0000
 			}
 			body1{
 				coords=-30.0000 0.0000 0.0000

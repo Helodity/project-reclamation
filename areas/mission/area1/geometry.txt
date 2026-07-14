@@ -500,6 +500,10 @@ mobs{
 		p=-1558.8350 -685.6958
 		angle=3.1003
 	}
+	enemy{
+		type=furnace
+		p=-256.0000 704.0000
+	}
 }
 path_stops{
 	s{

@@ -56,7 +56,7 @@ spawns {
 }
 
 status_vulnerabilities {
-    dissolving = 10
+    dissolving = 0
 }
 
 children {
