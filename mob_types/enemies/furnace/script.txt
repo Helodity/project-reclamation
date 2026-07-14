@@ -70,6 +70,7 @@ script {
 
     chasing {
         on_enter {
+            send_message_to_links start_chase
             set_animation walking no_restart
             set_far_reach chase
             set_near_reach charge
@@ -105,12 +106,14 @@ script {
         }
         on_focus_off_reach {
             stop_particles
+            send_message_to_links stop_aggro
             set_state idling
         }
     }
 
     charging {
         on_enter {
+            send_message_to_links start_charge
             stop
             set_animation walking_eating no_restart
             receive_status furnace_charge
@@ -133,12 +136,23 @@ script {
                  move_to_relative 200 0
             end_if
         }
-        on_touch_object {
+        on_hitbox_touch_a_n {
             get_mob_info mt trigger mob_type
-            if $mt = scrap
+            if $mt = mechamin
                 run_next_action_as trigger
                 delete
                 calculate scrap $scrap + 1
+                send_message_to_links consume_scrap
+            end_if
+        }
+        on_touch_object {
+            get_mob_info mt trigger mob_type
+            if $mt = scrap
+                label consume
+                run_next_action_as trigger
+                delete
+                calculate scrap $scrap + 1
+                send_message_to_links consume_scrap
             end_if
 
         }
@@ -150,6 +164,7 @@ script {
 
         on_leave {
             stop_particles
+            send_message_to_links stop_aggro
         }
     }
 

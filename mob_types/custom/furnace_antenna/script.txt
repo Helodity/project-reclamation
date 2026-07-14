@@ -5,5 +5,19 @@ script {
         on_enter {
             start_particles furnace_antenna 0 0 300
         }
+        on_receive_message {
+            get_event_info msg message
+
+            if $msg = start_chase
+                stop_particles
+                start_particles furnace_antenna_locking 0 0 300
+            else_if $msg = start_charge
+                stop_particles
+                start_particles furnace_antenna_aggressive 0 0 300
+            else_if $msg = stop_aggro
+                stop_particles
+                start_particles furnace_antenna 0 0 300
+            end_if
+        }
     }
 }

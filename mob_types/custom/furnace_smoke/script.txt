@@ -2,8 +2,17 @@ first_state = idling
 
 script {
     idling {
-        on_enter {
-            start_particles furnace_smoke 0 0 300
+        on_receive_message {
+            get_event_info msg message
+
+            if $msg = consume_scrap
+                stop_particles
+                start_particles furnace_smoke 0 0 300
+                set_timer 3
+            end_if
+        }
+        on_timer {
+            stop_particles
         }
     }
 }

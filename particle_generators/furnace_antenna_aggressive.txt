@@ -1,9 +1,9 @@
-name=furnace_antenna
+name=Furnace Antenna Hostile
 engine_version=1.2.0
 emission{
 	number=1
 	number_deviation=0
-	interval=0.8000
+	interval=0.2500
 	interval_deviation=0.0000
 	shape=1
 	rect_outer_dist=0.0000 0.0000
@@ -17,8 +17,8 @@ base{
 	friction=0.0000
 	blend_type=1
 	color{
-		0.0000=255 255 255
-		1.0000=255 255 255 0
+		0.0000=255 0 0
+		1.0000=255 0 0 0
 	}
 	size{
 		0.0000=8.0000

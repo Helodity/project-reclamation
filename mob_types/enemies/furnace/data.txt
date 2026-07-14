@@ -10,7 +10,7 @@ height = 128
 itch_damage = 70
 itch_time = 5
 max_carriers = 20
-max_health = 2000
+max_health = 3000
 move_speed = 80
 pikmin_seeds = 12
 points = 50
@@ -26,11 +26,7 @@ weight = 10
 rectangular_dimensions = 194 128
 
 reaches {
-    chase = 250 2
-    close = 250 360
-    attack = 40 30
-
-    chase = 350 90 50 360
+    chase = 350 120 50 360
 	search = 300 90 20 360
 	charge = 150 15
 }
@@ -48,12 +44,14 @@ spawns {
         relative = true
         coordinates = 0 0 0
         angle = 0
+        link_object_to_spawn = true
     }
     furnace_antenna {
         object = furnace_antenna
         relative = true
         coordinates = 0 0 0
         angle = 0
+        link_object_to_spawn = true
     }
 }
 
