@@ -5,6 +5,12 @@ appears_in_area_editor = false
 casts_shadow = false
 custom_category_name = Decoration
 
+default_vulnerability = 0
+
+status_vulnerabilities {
+    dissolving = 0
+}
+
 maker = Helodity
 version = 1.0.0
 engine_version = 1.2.0

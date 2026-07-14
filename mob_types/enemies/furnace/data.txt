@@ -26,13 +26,13 @@ weight = 10
 rectangular_dimensions = 194 128
 
 reaches {
-    wake_up = 10 360
-    search = 250 180 30 360
     chase = 250 2
     close = 250 360
     attack = 40 30
-	scrap_search = 250 90 20 360
-	scrap_consume = 50 25
+
+    chase = 350 90 50 360
+	search = 300 90 20 360
+	charge = 150 15
 }
 
 sounds {
@@ -55,6 +55,10 @@ spawns {
         coordinates = 0 0 0
         angle = 0
     }
+}
+
+status_vulnerabilities {
+    dissolving = 10
 }
 
 children {
