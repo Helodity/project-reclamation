@@ -6,6 +6,7 @@ init {
 
 global {
     on_animation_end {
+        //We only want to idle after the walking animation loops
         if $wants_to_idle = true
             remove_status furnace_charge
             swallow_all
@@ -21,11 +22,29 @@ global {
             start_particles furnace_stomp 80 100
             start_particles furnace_stomp -70 -100
             stop
+            //We only want to start chasing after a step ends, to ensure acceleration remains constant
+            if $wants_to_chase = true
+                set_var wants_to_chase false
+                set_state chasing
+                end_if
+            if $wants_to_charge = true
+                set_var wants_to_charge false
+                set_state charging
+            end_if
         end_if
         if $fs = 0
             start_particles furnace_stomp -70 100
             start_particles furnace_stomp 80 -100
             stop
+            //We only want to start chasing after a step ends, to ensure acceleration remains constant
+            if $wants_to_chase = true
+                set_var wants_to_chase false
+                set_state chasing
+                end_if
+            if $wants_to_charge = true
+                set_var wants_to_charge false
+                set_state charging
+            end_if
         end_if
         if $fs = 2
             move_to_target focused_mob
@@ -76,23 +95,24 @@ script {
             get_mob_info mt trigger mob_type
             if $mt = scrap
                 get_mob_info target_id trigger id
-                set_state chasing
+                set_var wants_to_chase true
             end_if
         }
         on_opponent_in_reach {
             get_mob_info target_id trigger id
-            set_state chasing
+            set_var wants_to_chase true
         }
     }
 
     chasing {
         on_enter {
+            //Do not set the chase destination here
+            //We only enter this state while walking, so on_frame_signal will setup the destination.
             send_message_to_links start_chase
             set_animation walking_eating no_restart
             set_far_reach chase
             set_near_reach charge
             focus_on_id $target_id
-            move_to_target focused_mob
             start_particles furnace_incin 100 0 150
             start_chomping 15 mouth
         }
@@ -105,11 +125,11 @@ script {
         on_object_in_reach {
             get_mob_info mt trigger mob_type
             if $mt = scrap
-                set_state charging
+                set_var wants_to_charge true
             end_if
         }
         on_opponent_in_reach {
-            set_state charging
+            set_var wants_to_charge true
         }
         on_focus_off_reach {
             stop_particles
@@ -120,12 +140,12 @@ script {
 
     charging {
         on_enter {
+            //Do not set the chase destination here
+            //We only enter this state while walking, so on_frame_signal will setup the destination.
             send_message_to_links start_charge
-            stop
             set_animation walking_eating no_restart
             receive_status furnace_charge
             set_timer 6
-            move_to_relative 200 0
         }
         on_frame_signal {
             //fs 0 and 1 handled in global
