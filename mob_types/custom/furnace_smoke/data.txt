@@ -2,14 +2,16 @@ name = Furnace Smoke Generator
 description = A decorative object whose only purpose is to emit smoke particles.
 
 appears_in_area_editor = false
+can_block_paths = false
 casts_shadow = false
-custom_category_name = Decoration
-
-default_vulnerability = 0
-
-status_vulnerabilities {
-    dissolving = 0
-}
+custom_category_name = Aux
+height = 8
+pushable = false
+pushes = false
+radius = 5
+show_health = false
+target_type = none
+team = none
 
 maker = Helodity
 version = 1.0.0
