@@ -21,7 +21,7 @@ global {
         if $fs = 1
             start_particles furnace_stomp 80 100
             start_particles furnace_stomp -70 -100
-            stop
+            receive_status furnace_stop
             //We only want to start chasing after a step ends, to ensure acceleration remains constant
             if $wants_to_chase = true
                 set_var wants_to_chase false
@@ -35,8 +35,7 @@ global {
         if $fs = 0
             start_particles furnace_stomp -70 100
             start_particles furnace_stomp 80 -100
-            stop
-            //We only want to start chasing after a step ends, to ensure acceleration remains constant
+            receive_status furnace_stop
             if $wants_to_chase = true
                 set_var wants_to_chase false
                 set_state chasing
@@ -47,7 +46,7 @@ global {
             end_if
         end_if
         if $fs = 2
-            move_to_target focused_mob
+            remove_status furnace_stop
         end_if
     }
 }
@@ -58,7 +57,7 @@ script {
         on_enter {
             stop
             set_animation idling
-            get_random_int t 1 3
+            get_random_int t 2 8
             set_timer $t
         }
         on_timer {
@@ -67,26 +66,11 @@ script {
     }
     exploring {
         on_enter {
-            //We are going to repeatedly stop and start motion for visual effect, so we need to store the target position so he doesnt just spin in place
-            get_random_float newX -1000 1000
-            get_random_float newY -1000 1000
-            get_mob_info myX self x
-            get_mob_info myY self y
-            calculate targetX $newX + $myX
-            calculate targetY $newY + $myY
-
-            follow_path_to_absolute $targetX $targetY
-
+            follow_path_randomly
             set_animation walking
-            get_random_int t 5 8
+            get_random_int t 20 120
             set_timer $t
             set_near_reach search
-        }
-        on_frame_signal {
-            //fs 0 and 1 handled in global
-            if $fs = 2
-                 follow_path_to_absolute $targetX $targetY
-            end_if
         }
         on_timer {
             set_var wants_to_idle true
@@ -102,25 +86,21 @@ script {
             get_mob_info target_id trigger id
             set_var wants_to_chase true
         }
+        on_reach_destination {
+            set_var wants_to_idle true
+        }
     }
 
     chasing {
         on_enter {
-            //Do not set the chase destination here
-            //We only enter this state while walking, so on_frame_signal will setup the destination.
             send_message_to_links start_chase
             set_animation walking_eating no_restart
             set_far_reach chase
             set_near_reach charge
             focus_on_id $target_id
+            move_to_target focused_mob
             start_particles furnace_incin 100 0 150
             start_chomping 15 mouth
-        }
-        on_frame_signal {
-            //fs 0 and 1 handled in global
-            if $fs = 2
-                move_to_target focused_mob
-            end_if
         }
         on_object_in_reach {
             get_mob_info mt trigger mob_type
@@ -140,18 +120,11 @@ script {
 
     charging {
         on_enter {
-            //Do not set the chase destination here
-            //We only enter this state while walking, so on_frame_signal will setup the destination.
+            move_to_relative 2000 0
             send_message_to_links start_charge
             set_animation walking_eating no_restart
             receive_status furnace_charge
             set_timer 6
-        }
-        on_frame_signal {
-            //fs 0 and 1 handled in global
-            if $fs = 2
-                 move_to_relative 200 0
-            end_if
         }
         on_hitbox_touch_a_n {
             get_mob_info mt trigger mob_type

@@ -1,10 +1,9 @@
-name = Furnace Charge
-description = For when a furnace charges.
+name = Furnace Stop
+description = For when a furnace needs to stop moving
 
 affects = enemies; leaders; pikmin; others
 color = 255 64 64
-speed_multiplier = 2
-anim_speed_multiplier = 1.75
+speed_multiplier = 0
 
 maker = Helodity
 version = 1.0.0
