@@ -56,7 +56,7 @@ spawns {
     explosion_one {
         object = explosion
         relative = true
-        coordinates = 20 15 1500
+        coordinates = 50 25 1500
         angle = 0
     }
     explosion_two {
