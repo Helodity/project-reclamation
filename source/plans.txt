@@ -1,4 +1,4 @@
-INTRO
+==== INTRO ====
 
 It was known by many names. The Savior of Life. The Golden Core. The Devil’s Lure. PNF-404.
 Now, it only goes by one: Wasteland.
@@ -8,48 +8,48 @@ Eager to exploit the planet’s wealth, travelers arrived by the thousands. Ship
 Eventually, the scavengers supply ran dry. Without their source of income, they turned towards the rest of the planet. The flora was stripped from the dirt. The creatures who survived the initial construction were slaughtered and sent back for profit. Everything must go, and just as fast as the travelers arrived, they left, leaving a husk of what was.
 
 
-PLOT
+==== Missions ====
 
-Intro: Crash land, discover a few disabled Mechamin. Notices coordinates inscribed within them detailing a factory.
-
-Mission 1: Explore a supposedly abandoned Mechamin factory. Turns out, it’s still running????? and the mechamin built are hostile??? Acquire blueprints, which allow rebuilding of Mechamin, and find notes that detail an underground extraction facility with “bountiful treasure” in another area. (Is this a stealth mission? It might be)
-
-Mission 2: It might be beneficial to disable this factory. Dismantle the generator that’s somehow still running? Strange.
-
-Mission 3: Uh oh, someone is sorta pissed that you’ve been touching his shit!!! He’s sending a mass of Mechamin at you. His army HEAVILY overpowers yours, get the FUCK out and fast.
-
-Mission 4: Phew, seems like you lost him. Now you can visit the coordinates the facility had It’s an abandoned facility alright, but it doesn’t match the rest of the architecture? Turns out, its made by a different group of people, and a preservation site. Discover ACTUAL Pikmin and onions here. Most importantly, the life here is able to grow again. Rebuild the pikmin population
-
-Mission 5: Test out some cool regrowth shit you found (idk man, plot!) on an abandoned area. It’s slow, but it works!!!!
-
-
-Mission 6: Return to the preservation site, and oh god, it’s been FUCKED UP. Whoever chased you down found the place and raided it to shit. EVERYTHING that was there is dead now. Turns out, mr AI is still there, and he’s not happy about that factory you blew up.
-
-
-NEW SHIT
-
-Areas
-- Abandoned Factory
-	- A large, abandoned factory where the journey starts and ends maybe?
-	- Portrayed to be self sufficient, with scrappers gathering scrap inside and out, conveyor belts running into molten dropoffs to smelt, etc
-	- Build enemy and hostile ecosystem in this theme?
-	- Magnets to attract and kill Mechamin??
+Mission 1/Intro: 
+	Insert crash landing. You land in a sulfuric acid river, and your ship is nowhere to be found. Travelling upstream, you find this massive ass factory thing.
 	
-- Ruined Greenhouse
+	Pikmin: None (kinda wild but i think we can cook)
+	Gameplay: Various gate/weight puzzles.
+	Custom Content: Carriable tool? tiny pebbles a leader can use to weigh stuff down with. Maybe use the fact it makes you weigh mroe in a puzzle.
+
+Mission 2: 
+	Abandoned Factory. 
+	Pikmin: Mechamin
+	TBA
+
+Mission TBA
+	- Ruined Greenhouse.
 	- An overgrown greenhouse beyond disrepair
 	- Lots of unique organic flora and fauna
 	- Pikmin pots scattered around that you must plant in the ground and allow to grow? Using Mechamin to obtain Pikmin, who can use their resistances to clear a path to different onions (red -> yellow, yellow + red -> blue?)
 	- New kind of sheargrub spawns on the outskirts on this map, up to a cap, and patrols the farmland area. Whenever it sees a growing or buried Pikmin, it beelines towards it to eat it.
 
-Hazards/Statuses
-- Sulfuric Acid (Liquid)
-	- Dissolving
-		- Removed on hazard leave
-		- 0.1 health ratio
-- Acid Splash (Hitbox)
-	- Causes panic and dissolving status until whistled
+MISSION TBA
+	- Abandoned Factory
+	- A large, abandoned factory where the journey starts and ends maybe?
+	- Portrayed to be self sufficient, with scrappers gathering scrap inside and out, conveyor belts running into molten dropoffs to smelt, etc
+	- Build enemy and hostile ecosystem in this theme?
+	- Magnets to attract and kill Mechamin??
 
-Enemies
+
+==== Pikmin ====
+- Mechamin – Robotic Pikmin made from scrap.
+	- Dies immediately to liquid hazards (water, sulfuric acid, bubbles)
+	- Propagates via scrap delivery to ships (kinda like glow Pikmin)
+	- Decreased damage (0.5x)
+	- Can not be spicy sprayed.
+	- Reverts to scrap pile on death. Does not occur when eaten.
+
+Would Coal Pikmin work here?
+	- Changes from previous releases
+		- Add some dust details when they get crushed.
+
+==== Enemies ====
 -- Common, Factory
 - Stalkerwire – Downed powerwires, remanifested into… something
 	- Resides in clumps of powerwires
@@ -85,7 +85,7 @@ Enemies
 	-When dead, crashes into the ground and turns into scrap pieces
 	-No soul
 	-Helodity's thoughts: This guy is so cool i want to make him a marketable plushie
-		- Maybe if it detects scrap, it tries to lure a scrapper over, but if it finds a player
+		- Maybe if it detects scrap, it tries to lure a scrapper over, but if it finds a player then it grabs a furnace?
 
 -- Common, Greenhouse
 -Rooting Sheargrub
@@ -114,18 +114,45 @@ Enemies
 	- Corrupted Onion on steroids.
 	- Neo suggestion: Maybe call it Foreman or something since it manages the factory/facility?
 
-Pikmin
-- Mechamin – Robotic Pikmin made from scrap.
-	- Dies immediately to liquid hazards (water, sulfuric acid, bubbles)
-	- Propagates via scrap delivery to ships (kinda like glow Pikmin)
-	- Decreased damage (0.5x)
-	- Can not be spicy sprayed.
-	- Reverts to scrap pile on death. Does not occur when eaten.
+==== Hazards ====
+- Sulfuric Acid (Liquid)
+	- Dissolving
+		- Removed on hazard leave
+		- 0.1 health ratio
+- Acid Splash (Hitbox)
+	- Causes panic and dissolving status until whistled
 
-LATER THOUGHTS: do we want these guys???
+==== MISC ====
+- Some way to handle sulfuric acid
+	- Purification? Draining?
+	- Some sort of remote clog could be coolio.
+
+
+
+==== Previous thoughts / ideas ====
+
+Do we want these guys???
 - Mechamin Mk II. – Prototype Mechamin. Blueprints lost to time.
 	- Liquid-resistant, takes damage in water over time (like sulfuric acid)
 	- Cannot propagate
 	- Can not be spicy sprayed.
 	- Decrease damage (0.5x)
 	- Reverts to scrap pile on death, which can be converted into a base Mechamin.
+
+PLOT (Kinda old tho)
+
+Intro: Crash land, discover a few disabled Mechamin. Notices coordinates inscribed within them detailing a factory.
+
+Mission 1: Explore a supposedly abandoned Mechamin factory. Turns out, it’s still running????? and the mechamin built are hostile??? Acquire blueprints, which allow rebuilding of Mechamin, and find notes that detail an underground extraction facility with “bountiful treasure” in another area. (Is this a stealth mission? It might be)
+
+Mission 2: It might be beneficial to disable this factory. Dismantle the generator that’s somehow still running? Strange.
+
+Mission 3: Uh oh, someone is sorta pissed that you’ve been touching his shit!!! He’s sending a mass of Mechamin at you. His army HEAVILY overpowers yours, get the FUCK out and fast.
+
+Mission 4: Phew, seems like you lost him. Now you can visit the coordinates the facility had It’s an abandoned facility alright, but it doesn’t match the rest of the architecture? Turns out, its made by a different group of people, and a preservation site. Discover ACTUAL Pikmin and onions here. Most importantly, the life here is able to grow again. Rebuild the pikmin population
+
+Mission 5: Test out some cool regrowth shit you found (idk man, plot!) on an abandoned area. It’s slow, but it works!!!!
+
+Mission 6: Return to the preservation site, and oh god, it’s been FUCKED UP. Whoever chased you down found the place and raided it to shit. EVERYTHING that was there is dead now. Turns out, mr AI is still there, and he’s not happy about that factory you blew up.
+
+
