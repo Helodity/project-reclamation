@@ -17,6 +17,8 @@ script {
             else_if $msg = stop_aggro
                 stop_particles
                 start_particles furnace_antenna 0 0 300
+            else_if $msg = stop
+                stop_particles
             end_if
         }
     }

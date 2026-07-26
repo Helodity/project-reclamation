@@ -1,4 +1,5 @@
 first_state = idling
+death_state = dying
 
 init {
     set_var scrap 0
@@ -151,4 +152,34 @@ script {
             set_var wants_to_idle true
         }
     }
+
+    dying {
+        on_enter {
+            set_var wants_to_charge false
+            set_var wants_to_chase false
+            set_var wants_to_idle false
+            set_animation dying
+            stop
+            stop_particles
+            send_message_to_links stop
+            start_dying
+        }
+        on_frame_signal {
+            //Obtaining fs is set global
+            if $fs = 3
+                spawn explosion_one
+            end_if
+            if $fs = 4
+                spawn explosion_two
+            end_if
+            if $fs = 5
+                spawn explosion_three
+            end_if
+        }
+        on_animation_end {
+            //TODO spawn scrap pile
+            delete
+        }
+    }
+
 }

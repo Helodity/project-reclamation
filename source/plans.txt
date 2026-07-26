@@ -1,13 +1,3 @@
-QUESTIONS TO ANSWER
-
-- Do the machine enemies deliberately target mechamin?
-	- Yes
-		- Fits existing game logic: pikmin bad get eaten
-	- No
-		- Foreman's factory produces them, right? why would he want to destroy his own army???
-
-
-
 INTRO
 
 It was known by many names. The Savior of Life. The Golden Core. The Devil’s Lure. PNF-404.

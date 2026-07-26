@@ -9,6 +9,8 @@ script {
                 stop_particles
                 start_particles furnace_smoke 0 0 300
                 set_timer 3
+            else_if $msg = stop
+                stop_particles
             end_if
         }
         on_timer {

@@ -53,6 +53,24 @@ spawns {
         angle = 0
         link_object_to_spawn = true
     }
+    explosion_one {
+        object = explosion
+        relative = true
+        coordinates = 20 15 150
+        angle = 0
+    }
+    explosion_two {
+        object = explosion
+        relative = true
+        coordinates = -40 -25 150
+        angle = 0
+    }
+    explosion_three {
+        object = explosion
+        relative = true
+        coordinates = 0 0 150
+        angle = 0
+    }
 }
 
 status_vulnerabilities {
