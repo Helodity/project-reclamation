@@ -174,10 +174,11 @@ script {
             end_if
             if $fs = 5
                 spawn explosion_three
+                spawn scrap_pile
+                delete
             end_if
         }
         on_animation_end {
-            //TODO spawn scrap pile
             delete
         }
     }

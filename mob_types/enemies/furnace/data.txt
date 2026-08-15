@@ -26,8 +26,8 @@ weight = 10
 rectangular_dimensions = 194 128
 
 reaches {
-    chase = 350 120 50 360
-	search = 300 90 20 360
+    chase = 350 120 90 360
+	search = 300 90 70 360
 	charge = 150 15
 }
 
@@ -54,22 +54,29 @@ spawns {
         link_object_to_spawn = true
     }
     explosion_one {
-        object = explosion
+        object = furnace_explosion
         relative = true
         coordinates = 50 25 1500
         angle = 0
     }
     explosion_two {
-        object = explosion
+        object = furnace_explosion
         relative = true
         coordinates = -40 -25 1500
         angle = 0
     }
     explosion_three {
-        object = explosion
+        object = furnace_explosion
         relative = true
         coordinates = 0 0 1500
         angle = 0
+    }
+    scrap_pile {
+        object = scrap_pile
+        relative = true
+        coordinates = 0 0 0
+        angle = 0
+        vars = amount = 5;
     }
 }
 

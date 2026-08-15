@@ -1,0 +1,24 @@
+name = Explosion (Furnace)
+description = A modified explosion that does not leave decals on the ground. This is a workaround for an engine bug where explosions spawned midair still count as on the ground.
+
+appears_in_area_editor = false
+can_hurt = player; enemy; weak_plain_obstacle; strong_plain_obstacle; explodable; explodable_pikmin_obstacle; fragile
+casts_shadow = false
+custom_category_name = Misc
+height = 50
+move_speed = 0
+pikmin_returns_after_using = true
+pushable = false
+pushes = false
+radius = 68
+
+sounds {
+    explosion {
+        sound = effects/explosion
+        speed_deviation = 10
+    }
+}
+
+maker = Helodity
+version = 1.0.0
+engine_version = 1.2.0

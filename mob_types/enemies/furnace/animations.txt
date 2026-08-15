@@ -20,7 +20,7 @@ animations{
 				signal=5
 			}
 			dying{
-				duration=0.1000
+				duration=0.0100
 			}
 		}
 	}
@@ -124,9 +124,9 @@ sprites{
 				value=1.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=2
 				value=1.0000
 			}
@@ -167,9 +167,9 @@ sprites{
 				value=1.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=0
 				value=1.0000
 				surface_type=0
@@ -213,9 +213,9 @@ sprites{
 				value=1.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=0
 				value=1.0000
 				surface_type=0
@@ -259,9 +259,9 @@ sprites{
 				value=1.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=0
 				value=1.0000
 				surface_type=0
@@ -305,9 +305,9 @@ sprites{
 				value=1.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=0
 				value=1.0000
 				surface_type=0
@@ -353,9 +353,9 @@ sprites{
 				knockback=2.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=0
 				value=1.0000
 				surface_type=0
@@ -400,9 +400,9 @@ sprites{
 				value=1.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=0
 				value=1.0000
 				surface_type=0
@@ -449,9 +449,9 @@ sprites{
 				knockback=2.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=0
 				value=1.0000
 				surface_type=0
@@ -495,9 +495,9 @@ sprites{
 				value=1.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=0
 				value=1.0000
 				surface_type=0
@@ -543,9 +543,9 @@ sprites{
 				knockback=2.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=0
 				value=1.0000
 				surface_type=0
@@ -590,9 +590,9 @@ sprites{
 				value=1.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=0
 				value=1.0000
 				surface_type=0
@@ -639,9 +639,9 @@ sprites{
 				knockback=2.0000
 			}
 			body1{
-				coords=-30.0000 0.0000 0.0000
+				coords=-35.0000 0.0000 0.0000
 				height=128.0000
-				radius=75.0000
+				radius=80.0000
 				type=0
 				value=1.0000
 				surface_type=0

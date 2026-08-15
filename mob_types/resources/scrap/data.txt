@@ -2,8 +2,7 @@ name = Scrap
 description = A small chunk of metal.
 
 can_walk_on_others = true
-carrying_destination = linked_mob
-delivery_result = add_points
+carrying_destination = ship
 height = 20
 max_carriers = 1
 point_amount = 100
@@ -14,6 +13,6 @@ return_to_pile_on_vanish = false
 vanish_on_drop = false
 weight = 1
 
-maker = Espyo
+maker = Helodity
 version = 1.0.0
-engine_version = 1.0.0
+engine_version = 1.2.0

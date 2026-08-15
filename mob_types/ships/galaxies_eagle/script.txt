@@ -3,5 +3,13 @@ script {
         on_enter {
             start_particles hocotate_ship_smoke 0 0 64
         }
+        on_finish_receiving_delivery {
+            get_mob_info mt trigger mob_type
+
+            if $mt = scrap
+                spawn pikmin
+            end_if
+
+        }
     }
 }
