@@ -1,7 +1,7 @@
-name=Mechamin animations
-description=Animations for the Mechamin.
-maker=Neo
-version=1.0.0
+name=Blue Pikmin animations
+description=Animations for the Blue Pikmin.
+maker=Espyo
+version=1.1.0
 engine_version=1.2.0
 animations{
 	arms_out{
@@ -189,16 +189,20 @@ animations{
 		frames{
 			climbing_01{
 				duration=0.1000
+				interpolate=true
 			}
 			climbing_02{
 				duration=0.1000
+				interpolate=true
 				sound=carrying
 			}
 			climbing_01{
 				duration=0.1000
+				interpolate=true
 			}
 			climbing_03{
 				duration=0.1000
+				interpolate=true
 			}
 		}
 	}
@@ -910,8 +914,8 @@ animations{
 sprites{
 	arms_out_01{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=20.0000 1.0000
+		file_pos=0.0000 112.0000
+		file_size=20.0000 32.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=-4.0000 0.0000
@@ -937,8 +941,8 @@ sprites{
 	}
 	arms_out_02{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=20.0000 1.0000
+		file_pos=0.0000 112.0000
+		file_size=20.0000 32.0000
 		offset=0.5000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -965,8 +969,8 @@ sprites{
 	}
 	arms_out_03{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=20.0000 1.0000
+		file_pos=0.0000 112.0000
+		file_size=20.0000 32.0000
 		offset=-0.5000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -993,8 +997,8 @@ sprites{
 	}
 	attacking_01{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=206.0000 31.0000
+		file_size=26.0000 22.0000
 		offset=3.0000 0.0000
 		scale=0.6000 0.5000
 		top_visible=true
@@ -1007,8 +1011,9 @@ sprites{
 				height=24.0000
 				radius=8.0000
 				type=1
-				value=5.0000
-				knockback_type=3
+				value=10.0000
+				hazard=pikmin_attack
+				knockback_type=0
 			}
 			body{
 				coords=2.0000 0.0000 0.0000
@@ -1022,8 +1027,8 @@ sprites{
 	}
 	attacking_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=206.0000 31.0000
+		file_size=26.0000 22.0000
 		offset=3.5000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -1036,8 +1041,9 @@ sprites{
 				height=24.0000
 				radius=8.0000
 				type=1
-				value=5.0000
-				knockback_type=3
+				value=10.0000
+				hazard=pikmin_attack
+				knockback_type=0
 			}
 			body{
 				coords=2.0000 0.0000 0.0000
@@ -1051,8 +1057,8 @@ sprites{
 	}
 	backflip_01{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=83.0000 81.0000
+		file_size=29.0000 20.0000
 		scale=0.5000 0.5000
 		top_visible=false
 		top_pos=0.0000 0.0000
@@ -1078,8 +1084,8 @@ sprites{
 	}
 	backflip_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=113.0000 81.0000
+		file_size=29.0000 20.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=9.0000 0.0000
@@ -1105,8 +1111,8 @@ sprites{
 	}
 	backflip_03{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=143.0000 81.0000
+		file_size=29.0000 20.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=3.0000 0.0000
@@ -1132,8 +1138,8 @@ sprites{
 	}
 	backflip_04{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=173.0000 81.0000
+		file_size=29.0000 20.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=-9.0000 0.0000
@@ -1159,8 +1165,8 @@ sprites{
 	}
 	climbing_01{
 		file=pikmin/mechamin
-		file_pos=21.0000 31.0000
-		file_size=11.0000 1.0000
+		file_pos=21.0000 112.0000
+		file_size=63.0000 30.0000
 		offset=8.5000 -5.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -1187,17 +1193,17 @@ sprites{
 	}
 	climbing_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
-		offset=8.5000 -5.0000
+		file_pos=85.0000 112.0000
+		file_size=63.0000 30.0000
+		offset=9.0000 -5.0000
 		scale=0.5000 0.5000
 		top_visible=true
-		top_pos=20.0000 -13.0000
+		top_pos=21.0000 -13.0000
 		top_size=5.5000 10.0000
 		top_angle=0.9599
 		hitboxes{
 			top{
-				coords=20.0000 -13.0000 0.0000
+				coords=21.0000 -13.0000 0.0000
 				height=24.0000
 				radius=4.0000
 				type=2
@@ -1215,17 +1221,17 @@ sprites{
 	}
 	climbing_03{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
-		offset=8.5000 -5.0000
+		file_pos=149.0000 112.0000
+		file_size=63.0000 30.0000
+		offset=8.0000 -5.0000
 		scale=0.5000 0.5000
 		top_visible=true
-		top_pos=24.0000 -12.0000
+		top_pos=23.0000 -13.0000
 		top_size=5.5000 10.0000
 		top_angle=1.7279
 		hitboxes{
 			top{
-				coords=24.0000 -12.0000 0.0000
+				coords=23.0000 -13.0000 0.0000
 				height=24.0000
 				radius=4.0000
 				type=2
@@ -1244,7 +1250,7 @@ sprites{
 	crouching{
 		file=pikmin/mechamin
 		file_pos=0.0000 31.0000
-		file_size=28.0000 1.0000
+		file_size=28.0000 20.0000
 		offset=3.5000 0.0000
 		scale=0.5000 0.5000
 		top_visible=false
@@ -1271,8 +1277,8 @@ sprites{
 	}
 	crushed_01{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=32.0000 1.0000
+		file_pos=0.0000 81.0000
+		file_size=82.0000 30.0000
 		offset=-8.0000 0.0000
 		scale=0.6000 0.6000
 		top_visible=true
@@ -1298,8 +1304,8 @@ sprites{
 	}
 	crushed_02{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=32.0000 1.0000
+		file_pos=0.0000 81.0000
+		file_size=82.0000 30.0000
 		offset=-8.0000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -1325,8 +1331,8 @@ sprites{
 	}
 	crushed_03{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=32.0000 1.0000
+		file_pos=0.0000 81.0000
+		file_size=82.0000 30.0000
 		offset=-0.5000 0.0000
 		scale=0.0500 0.0500
 		top_visible=true
@@ -1353,7 +1359,7 @@ sprites{
 	drinking_01{
 		file=pikmin/mechamin
 		file_pos=0.0000 31.0000
-		file_size=28.0000 1.0000
+		file_size=28.0000 20.0000
 		offset=4.0000 0.0000
 		scale=0.5500 0.4500
 		top_visible=false
@@ -1381,7 +1387,7 @@ sprites{
 	drinking_02{
 		file=pikmin/mechamin
 		file_pos=0.0000 31.0000
-		file_size=28.0000 1.0000
+		file_size=28.0000 20.0000
 		offset=3.0000 0.0000
 		scale=0.4500 0.5500
 		top_visible=false
@@ -1408,8 +1414,8 @@ sprites{
 	}
 	dying_01{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 28.0000
+		file_pos=54.0000 0.0000
+		file_size=48.0000 28.0000
 		offset=-6.3972 2.1816
 		scale=0.5000 0.5000
 		angle=5.9805
@@ -1437,8 +1443,8 @@ sprites{
 	}
 	dying_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 20.0000
+		file_pos=199.0000 0.0000
+		file_size=24.0000 20.0000
 		offset=3.1913 1.9559
 		scale=0.5000 0.5000
 		angle=0.6617
@@ -1466,8 +1472,8 @@ sprites{
 	}
 	dying_03{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 30.0000
+		file_pos=103.0000 0.0000
+		file_size=82.0000 30.0000
 		offset=-0.5000 0.0000
 		scale=0.0500 0.0500
 		top_visible=true
@@ -1493,8 +1499,8 @@ sprites{
 	}
 	flailing_01{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=102.0000 52.0000
+		file_size=27.0000 28.0000
 		offset=-0.5000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -1521,8 +1527,8 @@ sprites{
 	}
 	flailing_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=130.0000 52.0000
+		file_size=29.0000 28.0000
 		scale=0.5000 0.5000
 		angle=5.7596
 		top_visible=true
@@ -1549,8 +1555,8 @@ sprites{
 	}
 	flailing_03{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=102.0000 52.0000
+		file_size=27.0000 28.0000
 		offset=-0.5000 0.0000
 		scale=0.5000 -0.5000
 		top_visible=true
@@ -1577,8 +1583,8 @@ sprites{
 	}
 	flailing_04{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=130.0000 52.0000
+		file_size=29.0000 28.0000
 		scale=0.5000 -0.5000
 		angle=0.5236
 		top_visible=true
@@ -1605,8 +1611,8 @@ sprites{
 	}
 	grabbing{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=134.0000 31.0000
+		file_size=28.0000 20.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=-6.0000 0.0000
@@ -1632,8 +1638,8 @@ sprites{
 	}
 	grabbing_far{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=163.0000 31.0000
+		file_size=42.0000 20.0000
 		offset=-3.5000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -1660,8 +1666,8 @@ sprites{
 	}
 	grabbing_far_shake{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=163.0000 31.0000
+		file_size=42.0000 20.0000
 		offset=-4.5000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -1688,8 +1694,8 @@ sprites{
 	}
 	grabbing_walk_01{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=160.0000 52.0000
+		file_size=34.0000 20.0000
 		offset=-1.5000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -1716,8 +1722,8 @@ sprites{
 	}
 	grabbing_walk_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=160.0000 52.0000
+		file_size=34.0000 20.0000
 		offset=-1.5000 0.0000
 		scale=0.5000 -0.5000
 		top_visible=true
@@ -1744,8 +1750,8 @@ sprites{
 	}
 	half_lying{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 28.0000
+		file_pos=54.0000 0.0000
+		file_size=48.0000 28.0000
 		offset=-5.0000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -1937,8 +1943,8 @@ sprites{
 	}
 	looking_around_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=81.0000 52.0000
+		file_size=20.0000 20.0000
 		scale=0.5000 0.5000
 		angle=0.8692
 		top_visible=true
@@ -1965,8 +1971,8 @@ sprites{
 	}
 	looking_around_03{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=81.0000 52.0000
+		file_size=20.0000 20.0000
 		scale=0.5000 0.5000
 		angle=1.0472
 		top_visible=true
@@ -1993,8 +1999,8 @@ sprites{
 	}
 	looking_around_04{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=81.0000 52.0000
+		file_size=20.0000 20.0000
 		scale=0.5000 0.5000
 		angle=1.0472
 		top_visible=true
@@ -2021,8 +2027,8 @@ sprites{
 	}
 	looking_around_05{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=81.0000 52.0000
+		file_size=20.0000 20.0000
 		scale=0.5000 0.5000
 		angle=1.0472
 		top_visible=true
@@ -2133,8 +2139,8 @@ sprites{
 	}
 	looking_around_09{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=81.0000 52.0000
+		file_size=20.0000 20.0000
 		scale=0.5000 -0.5000
 		angle=5.4803
 		top_visible=true
@@ -2161,8 +2167,8 @@ sprites{
 	}
 	looking_around_10{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=81.0000 52.0000
+		file_size=20.0000 20.0000
 		scale=0.5000 -0.5000
 		angle=5.2360
 		top_visible=true
@@ -2189,8 +2195,8 @@ sprites{
 	}
 	looking_around_11{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=81.0000 52.0000
+		file_size=20.0000 20.0000
 		scale=0.5000 -0.5000
 		angle=5.2360
 		top_visible=true
@@ -2245,8 +2251,8 @@ sprites{
 	}
 	lounging_01{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=37.0000 52.0000
+		file_size=43.0000 28.0000
 		offset=2.0000 0.0000
 		scale=0.5500 0.5500
 		top_visible=true
@@ -2273,8 +2279,8 @@ sprites{
 	}
 	lounging_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=37.0000 52.0000
+		file_size=43.0000 28.0000
 		offset=2.0000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -2301,8 +2307,8 @@ sprites{
 	}
 	lounging_03{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=37.0000 52.0000
+		file_size=43.0000 28.0000
 		offset=2.0000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -2329,8 +2335,8 @@ sprites{
 	}
 	lying_01{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 30.0000
+		file_pos=103.0000 0.0000
+		file_size=82.0000 30.0000
 		offset=-8.0000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -2357,8 +2363,8 @@ sprites{
 	}
 	lying_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 30.0000
+		file_pos=103.0000 0.0000
+		file_size=82.0000 30.0000
 		offset=-8.0000 0.0000
 		scale=0.5500 0.5500
 		top_visible=true
@@ -2385,8 +2391,8 @@ sprites{
 	}
 	lying_squashed_01{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 30.0000
+		file_pos=103.0000 0.0000
+		file_size=82.0000 30.0000
 		offset=-8.0000 0.0000
 		scale=0.4170 0.6000
 		top_visible=true
@@ -2413,8 +2419,8 @@ sprites{
 	}
 	lying_squashed_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 30.0000
+		file_pos=103.0000 0.0000
+		file_size=82.0000 30.0000
 		offset=-8.0000 0.0000
 		scale=0.4560 0.5480
 		top_visible=true
@@ -2441,8 +2447,8 @@ sprites{
 	}
 	mid_bend{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 20.0000
+		file_pos=199.0000 0.0000
+		file_size=24.0000 20.0000
 		offset=2.5000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -2469,8 +2475,8 @@ sprites{
 	}
 	mob_landing{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=134.0000 31.0000
+		file_size=28.0000 20.0000
 		offset=2.0000 0.0000
 		scale=0.3500 0.7000
 		top_visible=true
@@ -2498,7 +2504,7 @@ sprites{
 	picking_up{
 		file=pikmin/mechamin
 		file_pos=0.0000 31.0000
-		file_size=28.0000 1.0000
+		file_size=28.0000 20.0000
 		offset=5.0000 0.0000
 		scale=0.6000 0.5000
 		top_visible=false
@@ -2526,7 +2532,7 @@ sprites{
 	shaking_01{
 		file=pikmin/mechamin
 		file_pos=0.0000 31.0000
-		file_size=28.0000 1.0000
+		file_size=28.0000 20.0000
 		offset=3.5000 2.5000
 		scale=0.5000 0.5000
 		angle=0.6109
@@ -2555,7 +2561,7 @@ sprites{
 	shaking_02{
 		file=pikmin/mechamin
 		file_pos=0.0000 31.0000
-		file_size=28.0000 1.0000
+		file_size=28.0000 20.0000
 		offset=3.5000 -2.5000
 		scale=0.5000 0.5000
 		angle=5.6723
@@ -2583,8 +2589,8 @@ sprites{
 	}
 	shaking_03{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 20.0000
+		file_pos=199.0000 0.0000
+		file_size=24.0000 20.0000
 		offset=3.0000 -2.0000
 		scale=0.5000 0.5000
 		angle=5.6723
@@ -2612,8 +2618,8 @@ sprites{
 	}
 	shaking_04{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 20.0000
+		file_pos=199.0000 0.0000
+		file_size=24.0000 20.0000
 		offset=3.0000 2.0000
 		scale=0.5000 0.5000
 		angle=0.6109
@@ -2700,7 +2706,7 @@ sprites{
 	sighing_01{
 		file=pikmin/mechamin
 		file_pos=0.0000 31.0000
-		file_size=28.0000 1.0000
+		file_size=28.0000 20.0000
 		offset=3.0000 1.8504
 		scale=0.5000 0.5000
 		angle=0.3491
@@ -2729,7 +2735,7 @@ sprites{
 	sighing_02{
 		file=pikmin/mechamin
 		file_pos=0.0000 31.0000
-		file_size=28.0000 1.0000
+		file_size=28.0000 20.0000
 		offset=3.0000 -1.8500
 		scale=0.5000 0.5000
 		angle=5.9341
@@ -2785,8 +2791,8 @@ sprites{
 	}
 	sitting_01{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=32.0000 1.0000
+		file_pos=0.0000 52.0000
+		file_size=36.0000 28.0000
 		offset=-3.0000 0.0000
 		scale=0.5500 0.5500
 		top_visible=true
@@ -2813,8 +2819,8 @@ sprites{
 	}
 	sitting_02{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=32.0000 1.0000
+		file_pos=0.0000 52.0000
+		file_size=36.0000 28.0000
 		offset=-3.0000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -2841,8 +2847,8 @@ sprites{
 	}
 	sitting_03{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=32.0000 1.0000
+		file_pos=0.0000 52.0000
+		file_size=36.0000 28.0000
 		offset=-3.0000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -2869,8 +2875,8 @@ sprites{
 	}
 	sliding_01{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 28.0000
+		file_pos=54.0000 0.0000
+		file_size=48.0000 28.0000
 		offset=-8.0000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -2897,8 +2903,8 @@ sprites{
 	}
 	sliding_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 28.0000
+		file_pos=54.0000 0.0000
+		file_size=48.0000 28.0000
 		offset=-9.0000 0.0000
 		scale=0.5000 0.5000
 		top_visible=true
@@ -2925,8 +2931,8 @@ sprites{
 	}
 	sprout_01{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 12.0000
+		file_pos=186.0000 0.0000
+		file_size=12.0000 12.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=-4.0000 0.0000
@@ -2951,8 +2957,8 @@ sprites{
 	}
 	sprout_02{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 12.0000
+		file_pos=186.0000 0.0000
+		file_size=12.0000 12.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=-5.0000 0.0000
@@ -2977,8 +2983,8 @@ sprites{
 	}
 	sprout_03{
 		file=pikmin/mechamin
-		file_pos=31.0000 0.0000
-		file_size=1.0000 12.0000
+		file_pos=186.0000 0.0000
+		file_size=12.0000 12.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=-3.0000 0.0000
@@ -3004,7 +3010,7 @@ sprites{
 	thrown_01{
 		file=pikmin/mechamin
 		file_pos=0.0000 31.0000
-		file_size=28.0000 1.0000
+		file_size=28.0000 20.0000
 		scale=0.5000 0.5000
 		top_visible=false
 		top_pos=0.0000 0.0000
@@ -3031,7 +3037,7 @@ sprites{
 	thrown_02{
 		file=pikmin/mechamin
 		file_pos=29.0000 31.0000
-		file_size=3.0000 1.0000
+		file_size=34.0000 20.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=-9.0000 0.0000
@@ -3057,8 +3063,8 @@ sprites{
 	}
 	thrown_03{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=64.0000 31.0000
+		file_size=32.0000 20.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=3.0000 0.0000
@@ -3084,8 +3090,8 @@ sprites{
 	}
 	thrown_04{
 		file=pikmin/mechamin
-		file_pos=31.0000 31.0000
-		file_size=1.0000 1.0000
+		file_pos=97.0000 31.0000
+		file_size=36.0000 20.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=10.0000 0.0000
@@ -3111,8 +3117,8 @@ sprites{
 	}
 	twirling_01{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=20.0000 1.0000
+		file_pos=0.0000 112.0000
+		file_size=20.0000 32.0000
 		scale=0.5000 0.5000
 		angle=5.9341
 		top_visible=true
@@ -3139,8 +3145,8 @@ sprites{
 	}
 	twirling_02{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=20.0000 1.0000
+		file_pos=0.0000 112.0000
+		file_size=20.0000 32.0000
 		scale=0.5000 0.5000
 		angle=0.3491
 		top_visible=true
@@ -3167,8 +3173,8 @@ sprites{
 	}
 	twirling_03{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=20.0000 1.0000
+		file_pos=0.0000 112.0000
+		file_size=20.0000 32.0000
 		scale=0.5000 0.5000
 		angle=1.3963
 		top_visible=true
@@ -3195,8 +3201,8 @@ sprites{
 	}
 	twirling_04{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=20.0000 1.0000
+		file_pos=0.0000 112.0000
+		file_size=20.0000 32.0000
 		scale=0.5000 0.5000
 		angle=2.6180
 		top_visible=true
@@ -3223,8 +3229,8 @@ sprites{
 	}
 	twirling_05{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=20.0000 1.0000
+		file_pos=0.0000 112.0000
+		file_size=20.0000 32.0000
 		scale=0.5000 0.5000
 		angle=4.0143
 		top_visible=true
@@ -3251,8 +3257,8 @@ sprites{
 	}
 	twirling_06{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=20.0000 1.0000
+		file_pos=0.0000 112.0000
+		file_size=20.0000 32.0000
 		scale=0.5000 0.5000
 		angle=5.6723
 		top_visible=true
@@ -3279,8 +3285,8 @@ sprites{
 	}
 	twirling_07{
 		file=pikmin/mechamin
-		file_pos=0.0000 31.0000
-		file_size=20.0000 1.0000
+		file_pos=0.0000 112.0000
+		file_size=20.0000 32.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=-4.0000 1.0000
@@ -3307,7 +3313,7 @@ sprites{
 	walking_01{
 		file=pikmin/mechamin
 		file_pos=21.0000 0.0000
-		file_size=11.0000 20.0000
+		file_size=32.0000 20.0000
 		scale=0.5000 0.5000
 		top_visible=true
 		top_pos=-4.0000 -2.0000
@@ -3334,7 +3340,7 @@ sprites{
 	walking_02{
 		file=pikmin/mechamin
 		file_pos=21.0000 0.0000
-		file_size=11.0000 20.0000
+		file_size=32.0000 20.0000
 		scale=0.5000 -0.5000
 		top_visible=true
 		top_pos=-4.0000 2.0000

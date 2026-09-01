@@ -7,9 +7,9 @@ carry_strength = 1
 health_regen = 10
 height = 24
 icon = pikmin/mechamin_icon
-icon_bud = pikmin/white_bud_icon
-icon_flower = pikmin/white_flower_icon
-icon_leaf = pikmin/leaf_icon
+icon_bud = pikmin/mecha_bud_icon
+icon_flower = pikmin/mecha_flower_icon
+icon_leaf = pikmin/mecha_leaf_icon
 icon_onion = onions/blue_icon
 main_color = 50 50 40
 max_health = 100
@@ -21,42 +21,42 @@ radius = 5
 sprout_evolution_time_1 = 120
 sprout_evolution_time_2 = 120
 sprout_evolution_time_3 = 180
-top_bud = pikmin/white_bud_top
-top_flower = pikmin/white_flower_top
-top_leaf = pikmin/leaf_top
+top_bud = pikmin/mecha_bud_top
+top_flower = pikmin/mecha_flower_top
+top_leaf = pikmin/mecha_leaf_top
 
 sounds {
     attack {
-        sound = pikmin/pikmin_attack
+        sound = pikmin/mecha_pikmin_attack
         speed_deviation = 2
     }
     called {
-        sound = pikmin/pikmin_called
+        sound = pikmin/mecha_pikmin_called
         speed_deviation = 2
     }
     carrying {
-        sound = pikmin/pikmin_carrying
+        sound = pikmin/mecha_pikmin_carrying
         speed_deviation = 3
         stack_mode = never
         random_delay = 0.05
     }
     carrying_grab {
-        sound = pikmin/pikmin_carrying_grab
+        sound = pikmin/mecha_pikmin_carrying_caught
         speed_deviation = 5
         stack_min_pos = 0.5
         volume = 50
     }
     carrying_struggle {
-        sound = pikmin/pikmin_carrying_struggle
+        sound = pikmin/mecha_pikmin_carrying_struggle
         volume = 35
         stack_mode = never
         speed_deviation = 5
     }
     caught {
-        sound = pikmin/pikmin_caught
+        sound = pikmin/mecha_pikmin_caught
     }
     celebrating {
-        sound = pikmin/pikmin_celebrating
+        sound = pikmin/mecha_pikmin_celebrating
         volume = 70
         stack_mode = never
         random_delay = 0.1
@@ -79,19 +79,19 @@ sounds {
         stack_min_pos = 0.2
     }
     held {
-        sound = pikmin/pikmin_held
+        sound = pikmin/mecha_pikmin_held
     }
     idle {
-        sound = pikmin/pikmin_idle
+        sound = pikmin/mecha_pikmin_idle
         speed_deviation = 3
     }
     knocked_back {
-        sound = pikmin/pikmin_knocked_back
+        sound = pikmin/mecha_pikmin_misc_o
         volume = 60
         speed_deviation = 10
     }
     misc_a {
-        sound = pikmin/pikmin_misc_a
+        sound = pikmin/mecha_pikmin_misc_a
         volume = 10
         speed_deviation = 10
         stack_mode = never
@@ -99,7 +99,7 @@ sounds {
         random_delay = 0.1
     }
     misc_e {
-        sound = pikmin/pikmin_misc_e
+        sound = pikmin/mecha_pikmin_misc_e
         volume = 10
         speed_deviation = 10
         stack_mode = never
@@ -107,7 +107,7 @@ sounds {
         random_delay = 0.1
     }
     misc_i {
-        sound = pikmin/pikmin_misc_i
+        sound = pikmin/mecha_pikmin_misc_i
         volume = 10
         speed_deviation = 10
         stack_mode = never
@@ -115,7 +115,7 @@ sounds {
         random_delay = 0.1
     }
     misc_m {
-        sound = pikmin/pikmin_misc_m
+        sound = pikmin/mecha_pikmin_misc_o
         volume = 10
         speed_deviation = 10
         stack_mode = never
@@ -123,7 +123,7 @@ sounds {
         random_delay = 0.1
     }
     misc_o {
-        sound = pikmin/pikmin_misc_o
+        sound = pikmin/mecha_pikmin_misc_o
         volume = 10
         speed_deviation = 10
         stack_mode = never
@@ -131,7 +131,7 @@ sounds {
         random_delay = 0.1
     }
     misc_u {
-        sound = pikmin/pikmin_misc_u
+        sound = pikmin/mecha_pikmin_misc_u
         volume = 10
         speed_deviation = 10
         stack_mode = never
@@ -149,18 +149,18 @@ sounds {
         speed_deviation = 10
     }
     ooh {
-        sound = pikmin/pikmin_ooh
+        sound = pikmin/mecha_pikmin_held
     }
     pluck_ground {
         sound = effects/pluck
         speed_deviation = 10
     }
     plucked {
-        sound = pikmin/pikmin_plucked
+        sound = pikmin/mecha_pikmin_plucked
         speed_deviation = 3
     }
     sigh {
-        sound = pikmin/pikmin_sigh
+        sound = pikmin/mecha_pikmin_sigh
         speed_deviation = 3
         stack_mode = never
         volume = 30
@@ -178,13 +178,13 @@ sounds {
         speed_deviation = 5
     }
     suffering {
-        sound = pikmin/pikmin_suffering
+        sound = pikmin/mecha_pikmin_suffering
         speed_deviation = 5
         stack_min_pos = 0.3
         volume = 80
     }
     thrown {
-        sound = pikmin/pikmin_thrown
+        sound = pikmin/mecha_pikmin_thrown
     }
 }
 

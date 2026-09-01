@@ -1,0 +1,753 @@
+﻿name: New Project
+comment: ""
+output_dir: Vocal
+cache_dir: UCache
+ustx_version: "0.7"
+resolution: 480
+bpm: 120
+beat_per_bar: 4
+beat_unit: 4
+expressions:
+  dyn:
+    name: dynamics (curve)
+    abbr: dyn
+    type: Curve
+    min: -240
+    max: 120
+    default_value: 0
+    is_flag: false
+    flag: ""
+  pitd:
+    name: pitch deviation (curve)
+    abbr: pitd
+    type: Curve
+    min: -1200
+    max: 1200
+    default_value: 0
+    is_flag: false
+    flag: ""
+  clr:
+    name: voice color
+    abbr: clr
+    type: Options
+    min: 0
+    max: -1
+    default_value: 0
+    is_flag: false
+    options: []
+  eng:
+    name: resampler engine
+    abbr: eng
+    type: Options
+    min: 0
+    max: 1
+    default_value: 0
+    is_flag: false
+    options:
+    - ""
+    - worldline
+  vel:
+    name: velocity
+    abbr: vel
+    type: Numerical
+    min: 0
+    max: 200
+    default_value: 100
+    is_flag: false
+    flag: ""
+  vol:
+    name: volume
+    abbr: vol
+    type: Numerical
+    min: 0
+    max: 200
+    default_value: 100
+    is_flag: false
+    flag: ""
+  atk:
+    name: attack
+    abbr: atk
+    type: Numerical
+    min: 0
+    max: 200
+    default_value: 100
+    is_flag: false
+    flag: ""
+  dec:
+    name: decay
+    abbr: dec
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
+  gen:
+    name: gender
+    abbr: gen
+    type: Numerical
+    min: -100
+    max: 100
+    default_value: 0
+    is_flag: true
+    flag: g
+  genc:
+    name: gender (curve)
+    abbr: genc
+    type: Curve
+    min: -100
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
+  bre:
+    name: breath
+    abbr: bre
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: true
+    flag: B
+  brec:
+    name: breathiness (curve)
+    abbr: brec
+    type: Curve
+    min: -100
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
+  lpf:
+    name: lowpass
+    abbr: lpf
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: true
+    flag: H
+  norm:
+    name: normalize
+    abbr: norm
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 86
+    is_flag: true
+    flag: P
+  mod:
+    name: modulation
+    abbr: mod
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
+  mod+:
+    name: modulation plus
+    abbr: mod+
+    type: Numerical
+    min: 0
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
+  alt:
+    name: alternate
+    abbr: alt
+    type: Numerical
+    min: 0
+    max: 16
+    default_value: 0
+    is_flag: false
+    flag: ""
+  dir:
+    name: direct
+    abbr: dir
+    type: Options
+    min: 0
+    max: 1
+    default_value: 0
+    is_flag: false
+    options:
+    - off
+    - on
+  shft:
+    name: tone shift
+    abbr: shft
+    type: Numerical
+    min: -36
+    max: 36
+    default_value: 0
+    is_flag: false
+    flag: ""
+  shfc:
+    name: tone shift (curve)
+    abbr: shfc
+    type: Curve
+    min: -1200
+    max: 1200
+    default_value: 0
+    is_flag: false
+    flag: ""
+  tenc:
+    name: tension (curve)
+    abbr: tenc
+    type: Curve
+    min: -100
+    max: 100
+    default_value: 0
+    is_flag: false
+    flag: ""
+  voic:
+    name: voicing (curve)
+    abbr: voic
+    type: Curve
+    min: 0
+    max: 100
+    default_value: 100
+    is_flag: false
+    flag: ""
+exp_selectors:
+- dyn
+- pitd
+- clr
+- eng
+- vel
+- vol
+- atk
+- dec
+- gen
+- bre
+exp_primary: 0
+exp_secondary: 0
+key: 0
+time_signatures:
+- bar_position: 0
+  beat_per_bar: 4
+  beat_unit: 4
+tempos:
+- position: 0
+  bpm: 120
+tracks:
+- singer: 重音テト OU用日本語統合ライブラリー
+  phonemizer: OpenUtau.Plugin.Builtin.ENtoJAPhonemizer
+  renderer_settings:
+    renderer: WORLDLINE-R
+  track_name: Track1
+  track_color: Blue
+  mute: false
+  solo: false
+  volume: 0
+  pan: 0
+  track_expressions: []
+  voice_color_names:
+  - ""
+  - エッジ - Vocal fry
+  - 力み - Strain
+  - 叫び - Shout
+  - 囁き - Whisper
+  - 弱 - Weak
+  - 滑らか - Smooth
+- phonemizer: OpenUtau.Core.DefaultPhonemizer
+  renderer_settings: {}
+  track_name: Track2
+  track_color: Blue
+  mute: false
+  solo: false
+  volume: 0
+  pan: 0
+  track_expressions: []
+  voice_color_names:
+  - ""
+voice_parts:
+- duration: 480
+  name: Called
+  comment: ""
+  track_no: 0
+  position: 0
+  notes:
+  - position: 0
+    duration: 165
+    tone: 73
+    lyric: " あ"
+    pitch:
+      data:
+      - {x: 0, y: 0, shape: io}
+      - {x: 17.708334, y: 5.568182, shape: io}
+      - {x: 77.083336, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves:
+  - xs: []
+    ys: []
+    abbr: dyn
+- duration: 480
+  name: Attack
+  comment: ""
+  track_no: 0
+  position: 480
+  notes:
+  - position: 0
+    duration: 150
+    tone: 73
+    lyric: he yah
+    pitch:
+      data:
+      - {x: 7.2916665, y: 0, shape: io}
+      - {x: 77.083336, y: 0.45454547, shape: io}
+      - {x: 95.833336, y: 30.454546, shape: io}
+      - {x: 154.16667, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 36.3636, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves:
+  - xs: []
+    ys: []
+    abbr: pitd
+- duration: 960
+  name: Carrying
+  comment: ""
+  track_no: 0
+  position: 960
+  notes:
+  - position: 0
+    duration: 240
+    tone: 73
+    lyric: uu
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 360
+    duration: 240
+    tone: 61
+    lyric: uu
+    pitch:
+      data:
+      - {x: -36.458332, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 960
+  name: Carry Stuck
+  comment: ""
+  track_no: 0
+  position: 1920
+  notes:
+  - position: 0
+    duration: 540
+    tone: 73
+    lyric: " あ"
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 10.416667, y: 12.897727, shape: io}
+      - {x: 212.5, y: -11.647727, shape: io}
+      - {x: 336.45834, y: -8.011364, shape: io}
+      - {x: 514.5833, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 720
+  name: Caught
+  comment: ""
+  track_no: 0
+  position: 2880
+  notes:
+  - position: 0
+    duration: 210
+    tone: 78
+    lyric: ah
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 75, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 960
+  name: Celebrate
+  comment: ""
+  track_no: 0
+  position: 3840
+  notes:
+  - position: 0
+    duration: 120
+    tone: 69
+    lyric: woah
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 617.7083, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 1
+      preutter_delta: -248.54167
+      overlap_delta: -42.91667
+  - position: 120
+    duration: 480
+    tone: 75
+    lyric: +
+    pitch:
+      data:
+      - {x: -82.291664, y: -60, shape: io}
+      - {x: 147.91667, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 600
+    duration: 180
+    tone: 74
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 1680
+  name: Held
+  comment: ""
+  track_no: 0
+  position: 5040
+  notes:
+  - position: 0
+    duration: 60
+    tone: 60
+    lyric: ouuuuuu
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 146.875, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 60
+    duration: 1320
+    tone: 74
+    lyric: +
+    pitch:
+      data:
+      - {x: -40, y: -140, shape: io}
+      - {x: 1346.875, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 480
+  name: Idle
+  comment: ""
+  track_no: 0
+  position: 6720
+  notes:
+  - position: 0
+    duration: 120
+    tone: 73
+    lyric: uu
+    pitch:
+      data:
+      - {x: -122.916664, y: 0, shape: io}
+      - {x: 11.458333, y: -0.22727273, shape: io}
+      - {x: 39.999996, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 2
+      preutter_delta: -97.65625
+      overlap_delta: 67.1875
+    - index: 0
+      overlap_delta: -13.416667
+  - position: 120
+    duration: 240
+    tone: 67
+    lyric: +
+    pitch:
+      data:
+      - {x: -20.833334, y: 60, shape: io}
+      - {x: 101.04167, y: -0.6818181, shape: io}
+      - {x: 211.45833, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 480
+  name: Misc A
+  comment: ""
+  track_no: 0
+  position: 7680
+  notes:
+  - position: 0
+    duration: 105
+    tone: 73
+    lyric: ahh
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 105
+    duration: 150
+    tone: 66
+    lyric: +
+    pitch:
+      data:
+      - {x: -100, y: 70, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 480
+  name: Misc E
+  comment: ""
+  track_no: 0
+  position: 8640
+  notes:
+  - position: 0
+    duration: 105
+    tone: 71
+    lyric: e
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 105
+    duration: 150
+    tone: 66
+    lyric: +
+    pitch:
+      data:
+      - {x: -100, y: 50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 480
+  name: Misc I
+  comment: ""
+  track_no: 0
+  position: 9600
+  notes:
+  - position: 0
+    duration: 105
+    tone: 71
+    lyric: i
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 23.958334, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 105
+    duration: 60
+    tone: 66
+    lyric: +
+    pitch:
+      data:
+      - {x: -100, y: 50, shape: io}
+      - {x: 2.0833333, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 480
+  name: Misc O
+  comment: ""
+  track_no: 0
+  position: 10320
+  notes:
+  - position: 0
+    duration: 105
+    tone: 71
+    lyric: oh
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 23.958334, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 105
+    duration: 60
+    tone: 66
+    lyric: +
+    pitch:
+      data:
+      - {x: -100, y: 50, shape: io}
+      - {x: 2.0833333, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 480
+  name: Misc U
+  comment: ""
+  track_no: 0
+  position: 11040
+  notes:
+  - position: 0
+    duration: 150
+    tone: 71
+    lyric: uuh
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 23.958334, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 150
+    duration: 105
+    tone: 68
+    lyric: +
+    pitch:
+      data:
+      - {x: -66.666664, y: 30, shape: io}
+      - {x: 94.791664, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 720
+  name: Plucked
+  comment: ""
+  track_no: 0
+  position: 11760
+  notes:
+  - position: 0
+    duration: 540
+    tone: 73
+    lyric: pedro
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 1
+      overlap_delta: -21.875
+    - index: 2
+      preutter_delta: 95.208336
+      overlap_delta: 19.416666
+    - index: 3
+      preutter_delta: 50.78125
+      overlap_delta: 20.3125
+  curves: []
+- duration: 1200
+  name: Sigh
+  comment: ""
+  track_no: 0
+  position: 12720
+  notes:
+  - position: 0
+    duration: 510
+    tone: 73
+    lyric: ahh
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 510
+    duration: 240
+    tone: 61
+    lyric: +
+    pitch:
+      data:
+      - {x: -563.5417, y: 120, shape: io}
+      - {x: 11.458333, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 1200
+  name: Suffering
+  comment: ""
+  track_no: 0
+  position: 14160
+  notes:
+  - position: 0
+    duration: 720
+    tone: 73
+    lyric: wah
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 43.75, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 100, period: 175, depth: 139.4886, in: 5.3703704, out: 12.407407, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 720
+  name: Thrown
+  comment: ""
+  track_no: 0
+  position: 15600
+  notes:
+  - position: 60
+    duration: 480
+    tone: 73
+    lyric: wahoo
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides:
+    - index: 1
+      offset: -39
+  curves: []
+wave_parts: []
