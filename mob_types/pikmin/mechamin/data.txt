@@ -41,7 +41,7 @@ sounds {
         random_delay = 0.05
     }
     carrying_grab {
-        sound = pikmin/mecha_pikmin_carrying_caught
+        sound = pikmin/mecha_pikmin_caught
         speed_deviation = 5
         stack_min_pos = 0.5
         volume = 50
@@ -82,7 +82,7 @@ sounds {
         sound = pikmin/mecha_pikmin_held
     }
     idle {
-        sound = pikmin/mecha_pikmin_idle
+        sound = pikmin/mecha_pikmin_release
         speed_deviation = 3
     }
     knocked_back {

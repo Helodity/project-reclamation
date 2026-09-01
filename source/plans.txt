@@ -41,7 +41,7 @@ MISSION TBA
 - Mechamin – Robotic Pikmin made from scrap.
 	- Dies immediately to liquid hazards (water, sulfuric acid, bubbles)
 	- Propagates via scrap delivery to ships (kinda like glow Pikmin)
-	- Decreased damage (0.5x)
+	- Decreased damage (0.5x) (I think this isn't really worth it, since they already kinda suck compared to any other pikmin)
 	- Can not be spicy sprayed.
 	- Reverts to scrap pile on death. Does not occur when eaten.
 

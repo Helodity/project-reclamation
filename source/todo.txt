@@ -1,0 +1,29 @@
+Priorities
+	5: do asap
+	4: should be the next goal
+	3: before the pack releases
+	2: if we have time / dont wanna die after everything else is done
+	1: stretch goal, would be nice
+
+==== Bugs ====
+
+==== Missions ====
+	3: Intro
+		Revamp to include deactivated mechamin that get activated half way through the map and open up everything
+	3: Literally make all of the other missions lol
+
+==== Mobs ====
+	Mechamin
+		3: Redo audio for holding and maybe throwing
+		2: Implement audio for being electrocuted/rusted
+		2: Improve spritework
+
+	Scrap
+		3: Retexture from gold nuggets
+
+	The Eagle
+		3: Replace dev Texture
+
+	Furnace
+		3: Add some death sprites
+			Would particles of nuts and bolts exploding out be cool?
