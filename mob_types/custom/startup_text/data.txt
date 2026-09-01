@@ -4,7 +4,6 @@ description = A dummy object that displays text when the area loads
 casts_shadow = false
 custom_category_name = Misc
 height = 16
-prompt_text = Read
 pushable = false
 pushes = false
 radius = 16

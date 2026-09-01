@@ -1,0 +1,17 @@
+name = Mechamin Activation
+description = An orb that emits a pulse, activating all nearby mechamin
+
+casts_shadow = false
+custom_category_name = Misc
+height = 16
+prompt_text = Press
+pushable = false
+pushes = false
+radius = 16
+rotation_speed = 80
+trigger_range = 64
+
+
+maker = Helodity
+version = 1.0.0
+engine_version = 1.2.0

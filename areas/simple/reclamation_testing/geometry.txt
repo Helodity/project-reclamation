@@ -548,6 +548,18 @@ mobs{
 		p=-192.0000 -384.0000
 		angle=-1.5489
 	}
+	custom{
+		type=deactivated_mechamin
+		p=128.0000 -192.0000
+	}
+	custom{
+		type=deactivated_mechamin
+		p=128.0000 -64.0000
+	}
+	interactable{
+		type=mechamin_lever
+		p=-192.0000 -64.0000
+	}
 }
 path_stops{
 	s{

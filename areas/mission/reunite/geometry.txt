@@ -3635,22 +3635,22 @@ mobs{
 		type=dummy
 		p=211.0643 -171.6723
 	}
-	pikmin{
-		type=winged_pikmin
+	custom{
+		type=deactivated_mechamin
 		p=392.9515 -233.8676
 		angle=0.5554
 		vars=maturity=0;sprout=true
 	}
-	pikmin{
-		type=winged_pikmin
+	custom{
+		type=deactivated_mechamin
 		p=387.9778 -260.8939
-		angle=-0.5190
+		angle=0.5554
 		vars=maturity=0;sprout=true
 	}
-	pikmin{
-		type=winged_pikmin
+	custom{
+		type=deactivated_mechamin
 		p=369.5700 -243.4859
-		angle=-2.7557
+		angle=0.5554
 		vars=maturity=0;sprout=true
 	}
 	custom{
@@ -3819,6 +3819,10 @@ mobs{
 		type=area_text
 		p=867.8230 -173.2678
 		vars=text=Must be the remains of their onion...\n\n\nThere's nothing on record that can harm an onion.\nWhat caused this?
+	}
+	interactable{
+		type=mechamin_lever
+		p=160.0000 -608.0000
 	}
 }
 path_stops{

@@ -1,0 +1,23 @@
+name = Deactivated Mechamin
+description = A disabled mechamin that requires activation before it can move
+
+custom_category_name = Mechamin
+height = 16
+pushable = false
+pushes = false
+radius = 5
+rotation_speed = 80
+
+spawns {
+    mecha {
+        object = mechamin
+        relative = true
+        coordinates = 0 0 0
+        angle = 0
+        vars = maturity = 0
+    }
+}
+
+maker = Helodity
+version = 1.0.0
+engine_version = 1.2.0
