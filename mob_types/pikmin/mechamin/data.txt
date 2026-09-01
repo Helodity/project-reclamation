@@ -185,6 +185,7 @@ sounds {
     }
     thrown {
         sound = pikmin/mecha_pikmin_thrown
+        speed_deviation = 15
     }
 }
 

@@ -436,7 +436,7 @@ voice_parts:
   notes:
   - position: 0
     duration: 60
-    tone: 60
+    tone: 61
     lyric: ouuuuuu
     pitch:
       data:
@@ -447,13 +447,13 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 60
-    duration: 1320
-    tone: 74
+    duration: 1110
+    tone: 73
     lyric: +
     pitch:
       data:
-      - {x: -40, y: -140, shape: io}
-      - {x: 1346.875, y: 0, shape: io}
+      - {x: -40, y: -120, shape: io}
+      - {x: 1137.5, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
@@ -735,19 +735,35 @@ voice_parts:
   track_no: 0
   position: 15600
   notes:
-  - position: 60
-    duration: 480
-    tone: 73
-    lyric: wahoo
+  - position: 15
+    duration: 225
+    tone: 74
+    lyric: yahoo
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
+      - {x: 6.25, y: 0, shape: io}
+      - {x: 28.125, y: -0.45454547, shape: io}
+      - {x: 47.916668, y: 17.272728, shape: io}
+      - {x: 84.375, y: 0.45454547, shape: io}
+      - {x: 119.791664, y: -2.2727273, shape: io}
+      - {x: 145.83333, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides:
     - index: 1
       offset: -39
+  - position: 240
+    duration: 195
+    tone: 67
+    lyric: +
+    pitch:
+      data:
+      - {x: -82.291664, y: 70, shape: io}
+      - {x: 13.541667, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
   curves: []
 wave_parts: []
