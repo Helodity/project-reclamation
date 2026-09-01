@@ -3,6 +3,6 @@ Making the audio took a bit of work, so I figure I'd document this for when I in
 1: Using OpenUtau, create a project that contains clips for each sound you want. Space them out a little so its easier to cut up later
 	This is the .ustx file here
 2: In Audacity, split each clip, and export (make sure its on "selection") each section as its own clip. Surely there's a way to do this in OpenUtau, but i cant figure it out.
-	Just to make people's lives easier, the .aup3 is here too
+	No .aup3, since you need to reimport everything whenever you edit a single sound. Kinda annoying, but making a better pipeline would take longer than doing it manually.
 
 Huh its not a lot when i word it like that... Setting up OpenUtau was kind of a pain but there's online stuff for that.
