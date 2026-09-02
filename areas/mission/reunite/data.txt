@@ -47,6 +47,16 @@ mission_end_conditions{
 		neutral_mood=false
 		reason
 	}
+	end_condition{
+		type=Metric is equal or more
+		metric_type=Pikmin lost
+		index_param=0
+		match_amount=2
+		clear=false
+		zero_time_for_score=false
+		neutral_mood=false
+		reason
+	}
 }
 mission_mob_groups
 mission_hud_items{
