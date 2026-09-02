@@ -1,0 +1,67 @@
+name=Rusted Machine
+maker=Helodity
+version=1.0.0
+engine_version=1.2.0
+subtitle
+difficulty=3
+bg_bmp
+bg_color=0 0 0
+bg_dist=2.0000
+bg_zoom=1.0000
+song=areas/factory
+boss_song=others/boss
+boss_victory_song
+weather
+day_time_start=420
+day_time_speed=120.0000
+spray_amounts
+mission_preset=Custom
+mission_time_limit=0
+mission_medal_award_mode=Clear
+mission_starting_points=0
+mission_points_can_be_negative=true
+mission_bronze_req=1000
+mission_silver_req=2000
+mission_gold_req=3000
+mission_platinum_req=4000
+mission_briefing_objective
+mission_briefing_notes
+mission_maker_record=0
+mission_maker_record_date
+mission_end_conditions
+mission_mob_groups
+mission_hud_items{
+	item{
+		enabled=false
+		display_type=Custom text
+		metric_type=Mob group cleared mobs
+		index_param=0
+		text
+		total_amount=-1
+	}
+	item{
+		enabled=false
+		display_type=Custom text
+		metric_type=Mob group cleared mobs
+		index_param=0
+		text
+		total_amount=-1
+	}
+	item{
+		enabled=false
+		display_type=Custom text
+		metric_type=Mob group cleared mobs
+		index_param=0
+		text
+		total_amount=-1
+	}
+	item{
+		enabled=false
+		display_type=Custom text
+		metric_type=Mob group cleared mobs
+		index_param=0
+		text
+		total_amount=-1
+	}
+}
+mission_score_criteria
